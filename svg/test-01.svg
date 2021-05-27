@@ -2,53 +2,50 @@
 <!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2560 1080" style="enable-background:new 0 0 2560 1080;" xml:space="preserve">
-<g id="Page_x40_3" style="display:none;">
+<g id="Page_x40_3">
+	<rect id="_x3C_Rectangle_x3E_" x="560" style="fill:none;stroke:#0F40D8;stroke-miterlimit:10;" width="1440" height="1080"/>
 	
-		<rect id="_x3C_Rectangle_x3E_" x="560" style="display:inline;fill:none;stroke:#0F40D8;stroke-miterlimit:10;" width="1440" height="1080"/>
-	
-		<image style="display:inline;overflow:visible;" width="580" height="769" id="in::_x2A_::ActClickShow_x28_pop_x2C_toggle_x29_::ActClickMove_x28_hMover_x2C_0_x2C_50_x2C_-150_x2C_toggle_x29_::ActClickShow_x28_nb_x29_" xlink:href="ED692EE756160782.png"  transform="matrix(0.3375 0 0 0.3375 954.3688 465.4125)">
+		<image style="overflow:visible;" width="580" height="769" id="in::_x2A_::ActClickShow_x28_pop_x2C_toggle_x29_::ActClickMove_x28_hMover_x2C_0_x2C_50_x2C_-150_x2C_toggle_x29_::ActClickShow_x28_nb_x29_" xlink:href="ED692EE756160780.png"  transform="matrix(0.3375 0 0 0.3375 954.3688 465.4125)">
 	</image>
-	<g id="in::pop::transition_x3D_linear_x2A_0.5" style="display:inline;opacity:0.88;">
+	<g id="in::pop::transition_x3D_linear_x2A_0.5" style="opacity:0.88;">
 		
 			<rect x="1384.56" y="682.53" transform="matrix(0.742 -0.6704 0.6704 0.742 -150.3669 1194.1522)" style="fill:#FFFFFF;" width="183.22" height="219.78"/>
 		<path d="M1470.43,650.17l146.68,162.33l-135.2,122.17l-146.68-162.33L1470.43,650.17 M1470.5,648.76l-136.68,123.51l148.02,163.81
 			l136.68-123.51L1470.5,648.76L1470.5,648.76z"/>
 	</g>
-	<g id="in::pop" style="display:inline;opacity:0.88;">
+	<g id="in::pop" style="opacity:0.88;">
 		
 			<rect x="1099.8" y="748.14" transform="matrix(0.742 -0.6704 0.6704 0.742 -267.8336 1020.1672)" style="fill:#FFFFFF;" width="183.22" height="219.78"/>
 		<path d="M1185.67,715.78l146.68,162.33l-135.2,122.17l-146.68-162.33L1185.67,715.78 M1185.74,714.37l-136.68,123.51
 			l148.02,163.81l136.68-123.51L1185.74,714.37L1185.74,714.37z"/>
 	</g>
-	<g id="in::hMover::transition_x3D_ease_x2A_1" style="display:inline;">
+	<g id="in::hMover::transition_x3D_ease_x2A_1">
 		
 			<rect x="1516.75" y="131.98" transform="matrix(0.9977 -0.0673 0.0673 0.9977 -11.3651 110.0545)" style="fill:#FFFFFF;" width="219.78" height="183.22"/>
 		<path d="M1729.65,125.32l12.27,181.81l-218.28,14.73l-12.27-181.81L1729.65,125.32 M1730.58,124.26l-220.28,14.87l12.41,183.8
 			l220.28-14.87L1730.58,124.26L1730.58,124.26z"/>
 	</g>
-	
-		<rect id="in::_x2A_::PagePrev_x28__x29_" x="1581.44" y="495.57" style="display:inline;fill:#D17474;" width="225.31" height="136.37"/>
-	<circle id="in::nb::PageNext_x28__x29_" style="display:inline;opacity:0.1;fill:#178426;" cx="858.09" cy="127.97" r="79.05"/>
-	
-		<ellipse id="in::_x2A_::ActClickHide_x28_asd_x29_" style="display:inline;fill:#826317;" cx="840.3" cy="369.73" rx="77.08" ry="64.58"/>
-	<rect id="in::asd" x="696.03" y="495.57" style="display:inline;fill:#826317;" width="144.27" height="144.27"/>
+	<rect id="in::_x2A_::PagePrev_x28__x29_" x="1581.44" y="495.57" style="fill:#D17474;" width="225.31" height="136.37"/>
+	<circle id="in::nb::PageNext_x28__x29_" style="opacity:0.1;fill:#178426;" cx="858.09" cy="127.97" r="79.05"/>
+	<ellipse id="in::_x2A_::ActClickHide_x28_asd_x29_" style="fill:#826317;" cx="840.3" cy="369.73" rx="77.08" ry="64.58"/>
+	<rect id="in::asd" x="696.03" y="495.57" style="fill:#826317;" width="144.27" height="144.27"/>
 </g>
 <g id="Page_x40_4">
 	<rect x="560" style="fill:none;stroke:#05D127;stroke-miterlimit:10;" width="1440" height="1080"/>
 	<rect id="in::_x2A_::PagePrev_x28__x29__1_" x="1670.37" y="495.57" style="fill:#178426;" width="136.37" height="367.6"/>
-	<g id="in::GameSet_x28_RadioDrag_x2C_right_x2C_500_x29_">
+	<g id="in::_x2A_::GameSet_x28_RadiationDrag_x2C_right_x2C_500_x29_">
 		<rect x="741.48" y="376" style="fill:#178426;" width="144.27" height="144.27"/>
 		<rect x="741.48" y="409.6" style="fill:#C99B36;" width="144.27" height="144.27"/>
 		<rect x="741.48" y="443.2" style="fill:#0B61AF;" width="144.27" height="144.27"/>
 	</g>
 </g>
-<g id="Page_x40_1" style="display:none;">
-	<g style="display:inline;">
+<g id="Page_x40_1">
+	<g>
 		<rect x="560" style="fill:none;stroke:#1823AD;stroke-miterlimit:10;" width="1440" height="1080"/>
 		<rect x="1083.12" y="158.91" style="fill:#FFFFFF;stroke:#1823AD;stroke-miterlimit:10;" width="116.72" height="64.69"/>
 		<rect x="1296.88" y="174.38" style="fill:#FFFFFF;stroke:#1823AD;stroke-miterlimit:10;" width="22.5" height="112.5"/>
 	</g>
 	
-		<rect id="in::_x2A_::PageNext_x28__x29_" x="1167.5" y="305.16" style="display:inline;fill:#FFFFFF;stroke:#E81A1A;stroke-miterlimit:10;" width="47.81" height="99.84"/>
+		<rect id="in::_x2A_::PageNext_x28__x29_" x="1167.5" y="305.16" style="fill:#FFFFFF;stroke:#E81A1A;stroke-miterlimit:10;" width="47.81" height="99.84"/>
 </g>
 </svg>
