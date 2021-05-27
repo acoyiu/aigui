@@ -32,9 +32,16 @@
     <div id="container"></div>
 
     <script src="./aijs.build4.js"></script>
+    <script src="./gameSet.js"></script>
     <script src="./updateAction.js"></script>
     <script src="./updateTransition.js"></script>
     <script>
+        // remove log
+        console.log('add "?log" after url for showing logs.');
+        if (!window.location.search.includes('log'))
+            console.log = () => { };
+
+
         const MissionCache = {
             allPages: [],
             namedObj: {},
@@ -129,26 +136,36 @@
             Array.from(
                 document.querySelectorAll('[id^="in"]'))
                 .map(tag => {
+
+                    // remove _1_ or similar char in id
                     tag.id = tag.id.replace(/_\d\d?\d?_/, '');
 
+
+                    // create transformer for all as standard
                     let transformerObj = new AiJs.Transformer(tag);
                     transformerObj.transformElement.id = tag.id;
                     tag.id = '';
 
+
+                    // interchange of opacity
                     transformerObj.transformElement.style.opacity = tag.style.opacity;
                     tag.style.opacity = 1;
-                    
+
+
                     return transformerObj;
                 })
                 .forEach(tObj => {
 
+                    // cache all in:: object
                     MissionCache.allInteractive.push(tObj);
 
+
                     const tag = tObj.transformElement;
-                    // console.log('tag.id', tag.id);
+
 
                     const allAttributes = tag.id.split('::');
                     // console.log('allAttributes', allAttributes);
+
 
                     {
                         // extract name
@@ -176,7 +193,14 @@
                     }
                 });
 
-            MissionContent.UpdateAction(MissionCache);
+
+            // add action functionality to element                
+            MissionContent.UpdateAction();
+
+
+            // add game set functionality
+            GameSet.init();
+
 
             loadFinish();
         };
@@ -187,6 +211,7 @@
 
         const loadFinish = async () => {
 
+            // load image
             if (document.querySelector('image')) {
                 await new Promise(res => setTimeout(res, 50));
                 await new Promise(res => {
@@ -198,21 +223,29 @@
                 await new Promise(subRes => setTimeout(subRes, 50));
             }
 
+
+            // show container
             document.getElementById('container').style.transition = 'all 0.4s linear';
             document.getElementById('container').style.opacity = 1;
 
 
+            // update in::transition element transition
             MissionCache.transitioner.forEach(tag => {
                 UpdateTransition(tag);
             });
 
+
+            // arrange page position
             updatePageIndex();
 
+
+            // setup page transition after first position update
             setTimeout(() => {
                 MissionCache.allPages.forEach(pageTag => {
                     pageTag.style.transition = 'all 0.4s ease';
                 });
             }, 100);
+
 
             console.log('MissionCache', MissionCache);
         };

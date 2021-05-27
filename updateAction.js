@@ -18,10 +18,11 @@ const MissionContent = {
     Page: tObj => {
 
         const tag = tObj.transformElement;
-        console.log('tag', tag);
+        // console.log('tag', tag);
 
+        
         const [sign, paramString] = tag.id.split('Page')[1].split(')')[0].split('(');
-        console.log('sign', sign, paramString);
+        // console.log('sign', sign, paramString);
 
 
         switch (sign) {
