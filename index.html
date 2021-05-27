@@ -135,6 +135,9 @@
                     transformerObj.transformElement.id = tag.id;
                     tag.id = '';
 
+                    transformerObj.transformElement.style.opacity = tag.style.opacity;
+                    tag.style.opacity = 1;
+                    
                     return transformerObj;
                 })
                 .forEach(tObj => {

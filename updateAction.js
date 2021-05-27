@@ -76,17 +76,48 @@ const MissionContent = {
 
                 case 'ActClickShow':
                     // console.log('ActClickShow', targetAction, targetParam);
-                    let shouldToggle = targetParam[1] ? true : false,
-                        isShown = true;
-                    arr_targetCallback.push(
-                        () => {
-                            MissionCache.namedObj[targetParam[0]].forEach(transformerObj => {
-                                if (shouldToggle) transformerObj.updateCss({ opacity: isShown ? 0 : 1 });
-                                else transformerObj.updateCss({ opacity: 0 });
-                            });
-                            isShown = !isShown;
-                        }
-                    );
+                    {
+                        const [targetEleName, isToggle] = targetParam;
+                        let isShown = false;
+
+                        arr_targetCallback.push(
+                            () => {
+                                MissionCache.namedObj[targetEleName].forEach(transformerObj => {
+                                    if (isToggle) {
+                                        if (isShown) transformerObj.updateCss({ opacity: 0 });
+                                        else transformerObj.updateCss({ opacity: 1 });
+                                    }
+                                    else transformerObj.updateCss({ opacity: 1 });
+                                });
+                                isShown = !isShown;
+                            }
+                        );
+                    }
+                    break;
+
+
+                // ----------------------------------------------------------------------------------------------
+
+
+                case 'ActClickHide':
+                    // console.log('ActClickShow', targetAction, targetParam);
+                    {
+                        const [targetEleName, isToggle] = targetParam;
+                        let isUsing = false;
+
+                        arr_targetCallback.push(
+                            () => {
+                                MissionCache.namedObj[targetEleName].forEach(transformerObj => {
+                                    if (isToggle) {
+                                        if (isUsing) transformerObj.updateCss({ opacity: 1 });
+                                        else transformerObj.updateCss({ opacity: 0 });
+                                    }
+                                    else transformerObj.updateCss({ opacity: 0 });
+                                });
+                                isUsing = !isUsing;
+                            }
+                        );
+                    }
                     break;
 
 
@@ -94,21 +125,24 @@ const MissionContent = {
 
 
                 case 'ActClickMove':
-                    let toggleState = true;
-                    arr_targetCallback.push(
-                        () => {
-                            // console.log('ActClickMove', targetAction, targetParam);
-                            const [targetEleName, x, y, rotate, isToggle] = targetParam;
-                            MissionCache.namedObj[targetEleName].forEach(transformerObj => {
-                                if (isToggle) {
-                                    if (toggleState) transformerObj.update({ x: Number(x), y: Number(y), r: Number(rotate) });
-                                    else transformerObj.restore();
-                                }
-                                else transformerObj.update({ x: Number(x), y: Number(y), r: Number(rotate) });
-                            });
-                            toggleState = !toggleState;
-                        }
-                    );
+                    // console.log('ActClickMove', targetAction, targetParam);
+                    {
+                        const [targetEleName, x, y, rotate, isToggle] = targetParam;
+                        let toggleState = true;
+
+                        arr_targetCallback.push(
+                            () => {
+                                MissionCache.namedObj[targetEleName].forEach(transformerObj => {
+                                    if (isToggle) {
+                                        if (toggleState) transformerObj.update({ x: Number(x), y: Number(y), r: Number(rotate) });
+                                        else transformerObj.restore();
+                                    }
+                                    else transformerObj.update({ x: Number(x), y: Number(y), r: Number(rotate) });
+                                });
+                                toggleState = !toggleState;
+                            }
+                        );
+                    }
                     break;
 
 
