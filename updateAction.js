@@ -24,7 +24,7 @@ const MissionContent = {
         // console.log('tag', tag);
 
 
-        const [sign, paramString] = tag.id.split('Page')[1].split(')')[0].split('(');
+        const [sign] = tag.id.split('Page')[1].split(')')[0].split('(');
         // console.log('sign', sign, paramString);
 
 
