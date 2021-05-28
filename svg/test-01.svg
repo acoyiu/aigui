@@ -2,12 +2,12 @@
 <!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2560 1080" style="enable-background:new 0 0 2560 1080;" xml:space="preserve">
-<g id="Layer_5" style="display:none;">
-	<g id="in::_x2A_::PagePrev_x28__x29__2_" style="display:inline;">
+<g id="Layer_5">
+	<g id="in::_x2A_::PagePrev_x28__x29__2_">
 		<polygon style="fill:#FFFFFF;" points="1876.46,102.8 1915.43,35.3 1954.4,102.8 		"/>
 		<path d="M1915.43,40.3l34.64,60h-69.28L1915.43,40.3 M1915.43,30.3l-43.3,75h86.6L1915.43,30.3L1915.43,30.3z"/>
 	</g>
-	<g id="in::_x2A_::PageNext_x28__x29__3_" style="display:inline;">
+	<g id="in::_x2A_::PageNext_x28__x29__3_">
 		<polygon style="fill:#FFFFFF;" points="1876.46,981.15 1954.4,981.15 1915.43,1048.65 		"/>
 		<path d="M1950.07,983.65l-34.64,60l-34.64-60H1950.07 M1958.73,978.65h-86.6l43.3,75L1958.73,978.65L1958.73,978.65z"/>
 	</g>
@@ -18,22 +18,22 @@
 	<g id="in::_x2A_::GameSet_x28_ConnectLine_x29_">
 		<g id="ConnectLine::LineGroup">
 			<g id="ConnectLine::G3">
-				<circle style="fill:#6B1E3E;" cx="1589.34" cy="429.04" r="36.23"/>
-				<circle style="fill:#6B1E3E;" cx="977.99" cy="429.04" r="36.23"/>
+				<circle style="fill:#1E4268;" cx="1589.34" cy="429.04" r="36.23"/>
+				<circle style="fill:#1E4268;" cx="977.99" cy="429.04" r="36.23"/>
 			</g>
 			<g id="ConnectLine::G2">
 				<circle style="fill:#6B1E3E;" cx="1589.34" cy="552.89" r="36.23"/>
 				<circle style="fill:#6B1E3E;" cx="977.99" cy="552.89" r="36.23"/>
 			</g>
 			<g id="ConnectLine::G1">
-				<circle style="fill:#6B1E3E;" cx="1589.34" cy="295.96" r="36.23"/>
-				<circle style="fill:#6B1E3E;" cx="977.99" cy="295.96" r="36.23"/>
+				<circle style="fill:#1F6638;" cx="1589.34" cy="295.96" r="36.23"/>
+				<circle style="fill:#1F6638;" cx="977.99" cy="295.96" r="36.23"/>
 			</g>
 		</g>
-		<g id="ConnectLine::WinPop">
+		<g id="ConnectLine::WinPop_1_">
 			
-				<rect id="_x3C_Rectangle_x3E__1_" x="818.46" y="179.59" style="fill:#D6C1C9;stroke:#6B1E3E;stroke-miterlimit:10;" width="923.08" height="720.81"/>
-			<path id="ConnectLine::BackButton" style="fill:#6B1E3E;" d="M1280,855.74L1280,855.74c-35.84,0-64.89-29.05-64.89-64.89v0
+				<rect id="_x3C_Rectangle_x3E__2_" x="818.46" y="179.59" style="fill:#C1C2D3;stroke:#6B1E3E;stroke-miterlimit:10;" width="923.08" height="720.81"/>
+			<path id="ConnectLine::BackButton_1_" style="fill:#1E2668;" d="M1280,855.74L1280,855.74c-35.84,0-64.89-29.05-64.89-64.89v0
 				c0-35.84,29.05-64.89,64.89-64.89h0c35.84,0,64.89,29.05,64.89,64.89v0C1344.89,826.68,1315.84,855.74,1280,855.74z"/>
 		</g>
 	</g>
