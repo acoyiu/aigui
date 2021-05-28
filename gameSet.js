@@ -337,12 +337,13 @@ const GameSet = {
         toggleWinGroup(false);
 
         function showWin() {
-            winGroup.setTransition('all 0.8s cubic-bezier(0.49, 1.77, 0.62, 1.6)');
-            toggleWinGroup(true);
-
             if (params[0]) {
                 AudioCache?.[params[0]]?.play();
             }
+
+            winGroup.setTransition('all 0.8s cubic-bezier(0.49, 1.77, 0.62, 1.6)');
+            toggleWinGroup(true);
+
         }
 
         // // dev use

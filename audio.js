@@ -26,7 +26,7 @@ function AudioInit() {
                         returnValue = await AiJs.Audio.UseGlobalClickSound(path);
                         break;
                     default:
-                        returnValue = await AiJs.Audio.UseEffectSound(path);
+                        returnValue = await AiJs.Audio.UseNormalSound(path);
                         break;
                 }
 
