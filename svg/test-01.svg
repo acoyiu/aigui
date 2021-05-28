@@ -75,12 +75,10 @@
 		</g>
 	</g>
 </g>
-<g id="Page_x40_5" style="display:none;">
-	<polygon id="in::_x2A_::PageNext_x28__x29__1_" style="display:inline;fill:#178426;" points="1280,1053.65 1323.3,978.65 
-		1236.7,978.65 	"/>
-	<polygon id="in::_x2A_::PagePrev_x28__x29__1_" style="display:inline;fill:#E82A6E;" points="1280,30.3 1236.7,105.3 
-		1323.3,105.3 	"/>
-	<g id="in::_x2A_::GameSet_x28_ConnectLine_x29_" style="display:inline;">
+<g id="Page_x40_5">
+	<polygon id="in::_x2A_::PageNext_x28__x29__1_" style="fill:#178426;" points="1280,1053.65 1323.3,978.65 1236.7,978.65 	"/>
+	<polygon id="in::_x2A_::PagePrev_x28__x29__1_" style="fill:#E82A6E;" points="1280,30.3 1236.7,105.3 1323.3,105.3 	"/>
+	<g id="in::_x2A_::GameSet_x28_ConnectLine_x29_">
 		<g id="ConnectLine::LineGroup">
 			<g id="ConnectLine::G3">
 				<circle style="fill:#1E4268;" cx="1589.34" cy="429.04" r="36.23"/>
@@ -103,22 +101,19 @@
 		</g>
 	</g>
 </g>
-<g id="Page_x40_4" style="display:none;">
-	<rect x="560" style="display:inline;fill:none;stroke:#05D127;stroke-miterlimit:10;" width="1440" height="1080"/>
-	<g id="in::_x2A_::GameSet_x28_RadiationDrag_x2C_horizontal_x2C_0_x2C_1000_x29_" style="display:inline;">
+<g id="Page_x40_4">
+	<rect x="560" style="fill:none;stroke:#05D127;stroke-miterlimit:10;" width="1440" height="1080"/>
+	<g id="in::_x2A_::GameSet_x28_RadiationDrag_x2C_horizontal_x2C_0_x2C_1000_x29_">
 		<rect x="741.48" y="406.64" style="fill:#178426;" width="144.27" height="144.27"/>
 		<rect x="741.48" y="424.92" style="fill:#C99B36;" width="144.27" height="144.27"/>
 		<rect x="741.48" y="443.2" style="fill:#0B61AF;" width="144.27" height="144.27"/>
 	</g>
-	<polygon id="in::_x2A_::PagePrev_x28__x29_" style="display:inline;fill:#E82A6E;" points="1280,30.3 1236.7,105.3 1323.3,105.3 	
-		"/>
-	<polygon id="in::_x2A_::PageNext_x28__x29__2_" style="display:inline;fill:#178426;" points="1280,1053.65 1323.3,978.65 
-		1236.7,978.65 	"/>
+	<polygon id="in::_x2A_::PagePrev_x28__x29_" style="fill:#E82A6E;" points="1280,30.3 1236.7,105.3 1323.3,105.3 	"/>
+	<polygon id="in::_x2A_::PageNext_x28__x29__2_" style="fill:#178426;" points="1280,1053.65 1323.3,978.65 1236.7,978.65 	"/>
 </g>
-<g id="Page_x40_3" style="display:none;">
-	
-		<rect id="_x3C_Rectangle_x3E_" x="560" style="display:inline;fill:none;stroke:#0F40D8;stroke-miterlimit:10;" width="1440" height="1080"/>
-	<g style="display:inline;">
+<g id="Page_x40_3">
+	<rect id="_x3C_Rectangle_x3E_" x="560" style="fill:none;stroke:#0F40D8;stroke-miterlimit:10;" width="1440" height="1080"/>
+	<g>
 		
 			<image style="overflow:visible;" width="580" height="769" id="in::_x2A_::ActClickShow_x28_pop_x2C_toggle_x29_::ActClickMove_x28_hMover_x2C_0_x2C_-150_x2C_-150_x2C_toggle_x29_" xlink:href="5033C76F712F15D7.png"  transform="matrix(0.3375 0 0 0.3375 1158.0121 558.0045)">
 		</image>
@@ -129,7 +124,7 @@
 		
 			<rect id="in::hMover::transition_x3D_ease_x2A_1" x="1659.87" y="340.41" transform="matrix(0.9977 -0.0673 0.0673 0.9977 -25.1091 120.2002)" style="fill:#826317;" width="220.78" height="184.22"/>
 	</g>
-	<g style="display:inline;">
+	<g>
 		<g id="in::_x2A_::ActClickHide_x28_asd_x29_" style="opacity:0.88;">
 			<ellipse style="fill:#FFFFFF;" cx="778.71" cy="199.78" rx="76.58" ry="64.08"/>
 			<path d="M778.71,136.2c41.95,0,76.08,28.52,76.08,63.58s-34.13,63.58-76.08,63.58c-41.95,0-76.08-28.52-76.08-63.58
@@ -138,18 +133,16 @@
 		</g>
 		<rect id="in::asd" x="706.57" y="333.18" style="fill:#826317;" width="144.27" height="144.27"/>
 	</g>
-	<polygon id="in:_x2A_::PagePrev_x28__x29__1_" style="display:inline;fill:#178426;" points="1280,48.92 1236.7,123.92 
-		1323.3,123.92 	"/>
-	<polygon id="in:_x2A_::PageNext_x28__x29_" style="display:inline;fill:#C66A90;" points="1280,1059.36 1323.3,984.36 
-		1236.7,984.36 	"/>
+	<polygon id="in:_x2A_::PagePrev_x28__x29__1_" style="fill:#178426;" points="1280,48.92 1236.7,123.92 1323.3,123.92 	"/>
+	<polygon id="in:_x2A_::PageNext_x28__x29_" style="fill:#C66A90;" points="1280,1059.36 1323.3,984.36 1236.7,984.36 	"/>
 </g>
-<g id="Page_x40_1" style="display:none;">
-	<g style="display:inline;">
+<g id="Page_x40_1">
+	<g>
 		<rect x="560" style="fill:none;stroke:#1823AD;stroke-miterlimit:10;" width="1440" height="1080"/>
 	</g>
-	<polygon id="in::_x2A_::PageNext_x28__x29_" style="display:inline;fill:#C66A90;" points="1289.8,1023.34 1280,1023.34 
-		1229.65,977.59 1330.35,977.59 	"/>
-	<g style="display:inline;">
+	<polygon id="in::_x2A_::PageNext_x28__x29_" style="fill:#C66A90;" points="1289.8,1023.34 1280,1023.34 1229.65,977.59 
+		1330.35,977.59 	"/>
+	<g>
 		
 			<rect id="in::_x2A_::ActClickHide_x28_ffCircle_x29_" x="1358.34" y="438.55" style="fill:#C66A90;" width="179.19" height="179.19"/>
 		<circle id="in::ffCircle" style="fill:#C66A90;" cx="1123.93" cy="528.14" r="101.45"/>
