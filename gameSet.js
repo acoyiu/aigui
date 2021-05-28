@@ -23,6 +23,12 @@ const GameSet = {
     },
 
 
+
+
+
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     RadiationDrag(tObj, tag, params) {
         console.warn('params', tag, params);
@@ -49,22 +55,93 @@ const GameSet = {
                 limitX: direction === 'horizontal' ? limits : undefined,
                 limitY: direction === 'vertical' ? limits : undefined,
                 bouncingEffect: false,
+                start: () => {
+                    remainingChildren.forEach(el => el.transformElement.style.transition = '');
+                },
                 move: (_, dragIns) => {
                     console.log(dragIns);
-                    // direction === 'horizontal'
-                    //     ? this.updateHorizon(dragIns.coorX, limits[0], limits[1] - limits[0])
-                    //     : this.updateVertical(dragIns.coorY, limits[0], limits[1] - limits[0]);
-                }
+                    direction === 'horizontal'
+                        ? this.updateHorizon(remainingChildren, dragIns.coorX)
+                        : this.updateVertical(remainingChildren, dragIns.coorY);
+                },
+                end: (_, dragIns) => {
+                    console.log(dragIns);
+                    remainingChildren.forEach(el => el.transformElement.style.transition = 'all 0.2s ease');
+                    direction === 'horizontal'
+                        ? this.updateHorizon(remainingChildren, dragIns.coorX)
+                        : this.updateVertical(remainingChildren, dragIns.coorY);
+                },
             }
         );
     },
-    updateHorizon(coorX, minVal, rangeOfDiff) {
-        // console.log('coorX', coorX);
-        // remainingChildren.forEach(chi => {
-        //     const tarValue = 
-        // });
+    updateHorizon(remainingChildren, coorX) {
+
+        let portion = coorX / remainingChildren.length;
+
+        remainingChildren.forEach((chi, kindex) => {
+            let indentDistance = kindex * portion;
+            chi.update({ x: indentDistance });
+        });
     },
-    updateVertical(coorY, minVal, rangeOfDiff) {
-        console.log('coorY', coorY);
+    updateVertical(coorY) {
+        // console.log(coorY, minVal, rangeOfDiff);
+    },
+
+
+
+
+
+
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    ConnectLine(tObj, tag, params) {
+        console.log('tObj, tag, params', tObj, tag, params);
+
+        let [lineGroup, winGroup] = Array.from(tag.children),
+            crossButton = new AiJs.Button(
+                winGroup.children[winGroup.children.length - 1],
+                {
+                    scaleRatio: 0.9,
+                    center: 5,
+                    end: () => {
+                        toggleWinGroup(false);
+                        resetGame();
+                    },
+                });
+
+        winGroup = new AiJs.Transformer(winGroup);
+
+        async function toggleWinGroup(boo) {
+            if (boo) {
+                winGroup.transformElement.style.opacity = 1;
+                winGroup.transformElement.style.pointerEvents = 'all';
+                await winGroup.update({ sx: 1, sy: 1 });
+                crossButton.disabled = false;
+
+            } else {
+                crossButton.disabled = true;
+                winGroup.transformElement.style.opacity = 0;
+                winGroup.transformElement.style.pointerEvents = 'none';
+                await winGroup.update({ sx: 0.9, sy: 0.9 });
+            }
+        }
+
+        toggleWinGroup(false);
+
+        // dev use
+        setTimeout(() => {
+            winGroup.setTransition('all 0.8s cubic-bezier(0.49, 1.77, 0.62, 1.6)');
+            toggleWinGroup(true);
+        }, 1000);
+
+
+        async function resetGame() { 
+
+        }
+
+
+        lineGroup
     },
 };

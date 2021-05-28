@@ -81,21 +81,28 @@ const MissionContent = {
 
 
                 case 'ActClickShow':
-                    // console.log('ActClickShow', targetAction, targetParam);
+                    console.log('ActClickShow', targetAction, targetParam);
                     {
                         const [targetEleName, isToggle] = targetParam;
                         let isShown = false;
 
                         arr_targetCallback.push(
                             () => {
-                                MissionCache.namedObj[targetEleName].forEach(transformerObj => {
-                                    if (isToggle) {
-                                        if (isShown) transformerObj.updateCss({ opacity: 0 });
+                                console.warn(MissionCache.namedObj);
+                                console.warn(targetEleName);
+                                try {
+                                    MissionCache.namedObj[targetEleName].forEach(transformerObj => {
+                                        if (isToggle) {
+                                            if (isShown) transformerObj.updateCss({ opacity: 0 });
+                                            else transformerObj.updateCss({ opacity: 1 });
+                                        }
                                         else transformerObj.updateCss({ opacity: 1 });
-                                    }
-                                    else transformerObj.updateCss({ opacity: 1 });
-                                });
-                                isShown = !isShown;
+                                    });
+                                    isShown = !isShown;
+                                } catch (error) {
+                                    console.error(error);
+                                    console.error(targetEleName);
+                                }
                             }
                         );
                     }
