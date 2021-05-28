@@ -84,7 +84,13 @@ const GameSet = {
         });
     },
     updateVertical(coorY) {
-        // console.log(coorY, minVal, rangeOfDiff);
+
+        let portion = coorY / remainingChildren.length;
+
+        remainingChildren.forEach((chi, kindex) => {
+            let indentDistance = kindex * portion;
+            chi.update({ y: indentDistance });
+        });
     },
 
 
