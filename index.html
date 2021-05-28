@@ -35,6 +35,7 @@
     <script src="./gameSet.js"></script>
     <script src="./updateAction.js"></script>
     <script src="./updateTransition.js"></script>
+    <script src="./audio.js"></script>
     <script>
         // remove log
         console.log('add "?log" after url for showing logs.');
@@ -88,6 +89,8 @@
         let svgRootTag,
             theView;
         const initPages = async () => {
+
+            await AudioInit();
 
             svgRootTag = document.querySelector('svg');
             theView = new AiJs.View(
