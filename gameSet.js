@@ -31,20 +31,20 @@ const GameSet = {
     // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
     RadiationDrag(tObj, tag, params) {
-        console.warn('params', tag, params);
+        // console.log('params', tag, params);
 
         const [direction, minVal, maxVal] = params;
 
         // get the upper-most ele for drag
         const dragTarget = tag.children[tag.children.length - 1];
-        console.log('dragTarget', dragTarget);
+        // console.log('dragTarget', dragTarget);
 
 
         // remaining children
         let remainingChildren = Array.from(tag.children);
         remainingChildren.pop();
         remainingChildren = remainingChildren.map(el => new AiJs.Transformer(el));
-        console.log('remainingChildren', remainingChildren);
+        // console.log('remainingChildren', remainingChildren);
 
 
         const limits = [Number(minVal), Number(maxVal)];
@@ -138,7 +138,6 @@ const GameSet = {
         // // dev use
         // setTimeout(() => {
         //     showWin();
-        //     // showLose();
         // }, 1000);
 
         let score;
@@ -288,5 +287,156 @@ const GameSet = {
         // setTimeout(() => {
         //     resetGame();
         // }, 5000);
+    },
+
+
+
+
+
+
+
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    DragSlot(tObj, tag, params) {
+        console.log('tObj, tag, params', tObj, tag, params);
+
+        let [dragGroup, winGroup] = Array.from(tag.children),
+            winCrossButton = new AiJs.Button(
+                winGroup.children[winGroup.children.length - 1],
+                {
+                    scaleRatio: 0.9,
+                    center: 5,
+                    end: async () => {
+                        await resetGame();
+                        toggleWinGroup(false);
+                    },
+                });
+
+        winGroup = new AiJs.Transformer(winGroup);
+
+        async function toggleWinGroup(boo) {
+            if (boo) {
+                winGroup.transformElement.style.opacity = 1;
+                winGroup.transformElement.style.pointerEvents = 'all';
+                await winGroup.update({ sx: 1, sy: 1 });
+                winCrossButton.disabled = false;
+            } else {
+                winCrossButton.disabled = true;
+                winGroup.transformElement.style.opacity = 0;
+                winGroup.transformElement.style.pointerEvents = 'none';
+                await winGroup.update({ sx: 0.9, sy: 0.9 });
+            }
+        }
+
+        toggleWinGroup(false);
+
+        function showWin() {
+            winGroup.setTransition('all 0.8s cubic-bezier(0.49, 1.77, 0.62, 1.6)');
+            toggleWinGroup(true);
+        }
+
+        // // dev use
+        // setTimeout(() => {
+        //     showWin();
+        // }, 1000);
+
+
+        // ==-=-=-=-=-=--=-=-=--
+
+
+        let scoreOfDrag;
+        function scorePlus() {
+            scoreOfDrag--;
+            console.log('scoreOfDrag', scoreOfDrag);
+            if (scoreOfDrag <= 0) {
+                showWin();
+            }
+        };
+
+
+        const resetGame = () => new Promise(res => {
+
+            console.log('dragGroup', dragGroup);
+
+            const allDraggable = Array.from(dragGroup.children);
+
+            scoreOfDrag = allDraggable.length;
+
+            allDraggable.forEach(dGroup => {
+
+                let [dragger, ansArea] = Array.from(dGroup.children);
+                // console.log('ansArea, dragger', ansArea, dragger);
+
+                if (dragger.nodeName === 'g') {
+                    let tempTag = dragger.children[0],
+                        parentTag = dragger.parentElement;
+                    parentTag.removeChild(dragger);
+                    dragger = tempTag;
+                    parentTag.appendChild(dragger);
+
+                }
+
+                dragger.style.pointerEvents = 'all';
+                dragger.style.opacity = 1;
+                ansArea.style.opacity = 0;
+
+                // =-=-=-=-=-=--=--=-=-=-=-=-=-=-=---===-=-=-
+
+                new AiJs.Draggable(
+                    new AiJs.Transformer(dragger), {
+                    start(e, trans) {
+                        trans.update({
+                            sx: 1.5,
+                            sy: 1.5
+                        });
+                    },
+                    async end(e, trans, destroyer) {
+
+                        trans.update({
+                            sx: 1,
+                            sy: 1
+                        });
+
+                        const isCorrect =
+                            document
+                                .elementsFromPoint(
+                                    e.changedTouches[0].clientX,
+                                    e.changedTouches[0].clientY,
+                                )
+                                .filter(el => el === ansArea)
+                                .length > 0;
+
+                        console.log('isCorrect', isCorrect);
+
+                        if (!isCorrect) {
+                            // wrong
+                            // TODO:
+                        } else {
+                            // correct
+                            // TODO: sound
+
+                            ansArea.style.opacity = 1;
+
+                            dragger.style.opacity = 0;
+                            dragger.style.pointerEvents = 'none';
+
+                            destroyer();
+
+                            scorePlus();
+                        }
+                    },
+                });
+            });
+
+
+            // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+            res();
+        });
+
+
+        resetGame();
     },
 };

@@ -74,7 +74,7 @@
                 .replace(/_x2C_/g, ',')
                 .replace(/<\?xml(.*?)>/g, '')
                 .replace(/<!--(.*?)-->/g, '')
-                .replace('xlink:href="', 'xlink:href="./svg/');
+                .replace(/xlink\:href\=\"/g, 'xlink:href="./svg/');
             console.log(svgText);
             document.getElementById('container').innerHTML = svgText;
 
