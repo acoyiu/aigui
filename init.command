@@ -20,6 +20,8 @@ cd "${TPath}"
 
 python -m SimpleHTTPServer 7070
 
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs "http://localhost:7070"
+
 
 # if can't run on Apple
 # xattr -d -r com.apple.quarantine ./init.command
