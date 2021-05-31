@@ -31,7 +31,7 @@
     <button id="fsBut" onclick="fS()">Full Screen</button>
     <div id="container"></div>
 
-    <script src="./lib/pageTransition.js"></script>
+    <script src="./lib/pageConfig.js"></script>
     <script src="./lib/aijs.build4.js"></script>
     <script src="./lib/audio.js"></script>
     <script src="./lib/gameSet.js"></script>
@@ -125,11 +125,7 @@
 
 
             let currentPageIndex = -1;
-            window.updatePageByIndex = () => {
-                MissionCache.allPages.forEach((pageG, rindex) => {
-                    pageG.style.transform = `translateY(${rindex * 100 - currentPageIndex * 100}%)`;
-                });
-            };
+            window.updatePageByIndex = () => PageConfiguration(MissionCache.allPages, currentPageIndex);
 
 
             window.changePage = toNext => {
@@ -267,7 +263,8 @@
             // setup page transition after first position update
             setTimeout(() => {
                 MissionCache.allPages.forEach(pageTag => {
-                    pageTag.style.transition = 'all 0.4s ease';
+                    console.log('00000909090909090909', window.thePageTransition);
+                    pageTag.style.transition = window.thePageTransition;
                 });
             }, 100);
 

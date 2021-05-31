@@ -136,7 +136,9 @@
 	<circle id="in::_x2A_::NavHideAt_x28_1_x29_" fill="#4917AA" cx="620.03" cy="540.47" r="28.23"/>
 	<polygon id="in::_x2A_::PagePrev_x28__x29_::NavHideAt_x28_0_x29_::NavShowAt_x28_1_x29_" fill="#4917AA" points="620.03,0 
 		590.08,51.87 649.98,51.87 	"/>
-	<rect id="audio::succ::success.mp3" x="2517.24" y="23.21" fill="none" width="18.78" height="18.78"/>
+	<rect id="pageConfig::transition::ease_x2A_0.4" x="2517.24" y="23.21" fill="none" width="18.78" height="18.78"/>
+	<rect id="pageConfig::transitionMode::fade_1_" x="2517.24" y="30.95" fill="none" width="18.78" height="18.78"/>
+	<rect id="audio::succ::success.mp3_1_" x="2517.24" y="49.73" fill="none" width="18.78" height="18.78"/>
 	<rect id="audio::bgm::bgm.mp3" x="2517.24" y="50.88" fill="none" width="18.78" height="18.78"/>
 	<rect id="audio::basic::drop.mp3_2_" x="2517.24" y="78.55" fill="none" width="18.78" height="18.78"/>
 	<rect x="560" fill="none" stroke="#000000" stroke-miterlimit="10" width="1440" height="1080"/>
