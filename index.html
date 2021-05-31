@@ -31,12 +31,14 @@
     <button id="fsBut" onclick="fS()">Full Screen</button>
     <div id="container"></div>
 
-    <script src="./lib/aijs.build4.js"></script>
-    <script src="./lib/gameSet.js"></script>
-    <script src="./lib/updateAction.js"></script>
     <script src="./lib/pageTransition.js"></script>
-    <script src="./lib/updateTransition.js"></script>
+    <script src="./lib/aijs.build4.js"></script>
     <script src="./lib/audio.js"></script>
+    <script src="./lib/gameSet.js"></script>
+    <script src="./lib/updateNav.js"></script>
+    <script src="./lib/updateAction.js"></script>
+    <script src="./lib/updateTransition.js"></script>
+
     <script>
         // remove log
         console.log('add "?log" after url for showing logs.');
@@ -49,6 +51,7 @@
             namedObj: {},
             gameSet: [],
             actElement: [],
+            navElements: [],
             pageChanger: [],
             transitioner: [],
             allInteractive: [],
@@ -109,14 +112,20 @@
             MissionCache.allPages =
                 Array
                     .from(document.querySelectorAll('[id^="Page"]'))
-                    .filter(page => page.style.display != 'none')
+                    .filter(page => page.style.display != 'none' && page.getAttribute('display') != 'none')
+                    .map(pageTag => {
+                        console.log('=p=-=-=-');
+                        console.log(pageTag);
+                        pageTag.id = pageTag.id.split('_')[0];
+                        return pageTag;
+                    })
                     .sort((a, b) => {
                         return a.id.split('@')[1] - b.id.split('@')[1];
                     });
 
 
-            let currentPageIndex = 0;
-            window.updatePageIndex = () => {
+            let currentPageIndex = -1;
+            window.updatePageByIndex = () => {
                 MissionCache.allPages.forEach((pageG, rindex) => {
                     pageG.style.transform = `translateY(${rindex * 100 - currentPageIndex * 100}%)`;
                 });
@@ -127,12 +136,14 @@
                 toNext
                     ? currentPageIndex++
                     : currentPageIndex--;
-                updatePageIndex();
+                updatePageByIndex();
+                changePageCallback.forEach(ƒ => ƒ(currentPageIndex, MissionCache.allPages.length));
             };
 
 
             initContent();
         };
+        window.changePageCallback = [];
 
 
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -154,7 +165,7 @@
 
 
                     // interchange of opacity
-                    transformerObj.transformElement.style.opacity = tag.style.opacity;
+                    transformerObj.transformElement.style.opacity = (tag.style.opacity || tag.getAttribute('opacity'));
                     tag.style.opacity = 1;
 
 
@@ -193,6 +204,10 @@
                         if (allAttributes.some(attri => attri.startsWith('Page')))
                             MissionCache.pageChanger.push(tObj);
 
+                        // extract Nav elements
+                        if (allAttributes.some(attri => attri.startsWith('Nav')))
+                            MissionCache.navElements.push(tObj);
+
                         // extract game set
                         if (allAttributes.some(attri => attri.startsWith('GameSet')))
                             MissionCache.gameSet.push(tObj);
@@ -202,6 +217,10 @@
 
             // add action functionality to element                
             MissionContent.UpdateAction();
+
+
+            // nav element listen action
+            UpdateNav();
 
 
             // add game set functionality
@@ -242,7 +261,7 @@
 
 
             // arrange page position
-            updatePageIndex();
+            changePage(true);
 
 
             // setup page transition after first position update

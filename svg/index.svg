@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2560 1080" enable-background="new 0 0 2560 1080" xml:space="preserve">
+<g id="Page_x40_3">
+	<rect fill="#458464" width="2560" height="1080"/>
+	<polygon id="in::lPoly" fill="#FFFFFF" points="1176.9,223.12 1088.62,223.12 1044.48,299.57 1088.62,376.02 1176.9,376.02 
+		1221.04,299.57 	"/>
+	<polygon id="in::rPoly::transition_x3D_ease_x2A_0.5" fill="#FFFFFF" points="1471.38,223.12 1383.1,223.12 1338.96,299.57 
+		1383.1,376.02 1471.38,376.02 1515.52,299.57 	"/>
+	
+		<path id="in::ActClickHide_x28_lPoly_x2C_toggle_x29_::ActClickMove_x28_rPoly_x2C_0_x2C_-150_x2C_-150_x2C_toggle_x29_" fill="#FFFFFF" d="
+		M1330.4,872.06h-100.8c-27.83,0-50.4-22.56-50.4-50.4l0,0c0-27.83,22.56-50.4,50.4-50.4h100.79c27.83,0,50.4,22.56,50.4,50.4l0,0
+		C1380.79,849.5,1358.23,872.06,1330.4,872.06z"/>
+	<text id="te" transform="matrix(1 0 0 1 770.3814 453.1299)" font-family="'MyriadPro-Regular'" font-size="38.1245px">ActClickHide(lPoly,toggle)</text>
+	<text id="te2" transform="matrix(1 0 0 1 1291.0347 453.1303)" font-family="'MyriadPro-Regular'" font-size="38.1245px">ActClickMove(rPoly,0,-150,-150,toggle)</text>
+</g>
+<g id="Page_x40_2">
+	<text id="text_1_" transform="matrix(1 0 0 1 1083.6057 854.9839)" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickShow(pop,toggle)</text>
+	<text id="text_2_" transform="matrix(1 0 0 1 1410.8411 445.1026)" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::pop::transition=linear*0.5</text>
+	
+		<rect id="in::pop::transition_x3D_linear_x2A_0.5" x="1192.71" y="354.91" opacity="0.04" fill="#994D33" enable-background="new    " width="174.58" height="158.11"/>
+	<polygon id="in::_x2A_::ActClickShow_x28_pop_x2C_toggle_x29_" fill="#994D33" points="1320.39,605.46 1239.61,605.46 
+		1199.23,675.41 1239.61,745.36 1320.39,745.36 1360.77,675.41 	"/>
+</g>
+<g id="Page_x40_1_1_">
+	<rect id="background" fill="#60A582" width="2560" height="1080"/>
+	
+		<rect id="in::_x2A_::ActClickHide_x28_circleToHide_x2C_toggle_x29_" x="1003.34" y="362.13" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="249.02" height="274.71"/>
+	<path id="in::circleToHide::transition_x3D_linear_x2A_0.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="
+		M1459.88,636.84L1459.88,636.84c-68.77,0-124.51-55.75-124.51-124.51v-25.69c0-68.77,55.75-124.51,124.51-124.51l0,0
+		c68.77,0,124.51,55.75,124.51,124.51v25.69C1584.39,581.1,1528.64,636.84,1459.88,636.84z"/>
+	<polygon id="in::_x2A_::PageNext_x28__x29_" fill="#FFFFFF" points="1280,1080 1323.3,1005 1236.7,1005 	"/>
+	
+		<text id="text" transform="matrix(1 0 0 1 794.5885 702.1023)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickHide(circleToHide,toggle)</text>
+	<text transform="matrix(1 0 0 1 1381.3455 702.1025)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">circleToHide</text>
+</g>
+<g id="General">
+	<polygon id="in::_x2A_::PageNext_x28__x29_::NavHideAt_x28_2_x29_::NavShowAt_x28_1_x29_" fill="#4917AA" points="620.03,1080 
+		648.9,1030 591.16,1030 	"/>
+	<circle id="in::_x2A_::NavHideAt_x28_1_x29_" fill="#4917AA" cx="620.03" cy="540.47" r="28.23"/>
+	<polygon id="in::_x2A_::PagePrev_x28__x29_::NavHideAt_x28_0_x29_::NavShowAt_x28_1_x29_" fill="#4917AA" points="620.03,0 
+		590.08,51.87 649.98,51.87 	"/>
+	<rect x="560" fill="none" stroke="#000000" stroke-miterlimit="10" width="1440" height="1080"/>
+</g>
+</svg>
