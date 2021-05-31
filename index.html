@@ -60,7 +60,10 @@
         const start = async () => {
             document.getElementById('container').style.opacity = 0;
 
-            let svgText = await (await fetch('./svg/index.svg')).text();
+            let svgText;
+            if (!window.location.search.includes('log')) svgText = await (await fetch('./target/index.svg')).text();
+            else svgText = await (await fetch('./svg/index.svg')).text();
+
             svgText = svgText
                 .replace(/_x21_/g, '!')
                 .replace(/_x40_/g, '@')
@@ -133,7 +136,7 @@
                     ? currentPageIndex++
                     : currentPageIndex--;
                 updatePageByIndex();
-                changePageCallback.forEach(ƒ => ƒ(currentPageIndex, MissionCache.allPages.length));
+                changePageCallback.forEach(func => func(currentPageIndex, MissionCache.allPages.length));
             };
 
 
