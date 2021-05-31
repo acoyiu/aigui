@@ -57,7 +57,7 @@
         const start = async () => {
             document.getElementById('container').style.opacity = 0;
 
-            let svgText = await (await fetch('./svg/test-01.svg')).text();
+            let svgText = await (await fetch('./svg/index.svg')).text();
             svgText = svgText
                 .replace(/_x21_/g, '!')
                 .replace(/_x40_/g, '@')
