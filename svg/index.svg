@@ -6,49 +6,44 @@
 	<g id="in::_x2A_::GameSet_x28_Comparing_x2C_succ_x29_">
 		<g id="Comparing::Score_1_">
 			
-				<rect id="Comparing::S3" x="1280" y="963.63" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.05" height="59.92"/>
+				<rect id="Comparing::S3" x="1280" y="963.6" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.1" height="59.9"/>
 			
-				<rect id="Comparing::S2_1_" x="1088.95" y="963.63" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.05" height="59.92"/>
+				<rect id="Comparing::S2_1_" x="1088.9" y="963.6" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.1" height="59.9"/>
 			
-				<rect id="Comparing::S1" x="897.9" y="963.63" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.05" height="59.92"/>
+				<rect id="Comparing::S1" x="897.9" y="963.6" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.1" height="59.9"/>
 		</g>
 		<g id="Comparing::PairGroup_1_">
 			<g id="Comparing::Couple_5_">
+				<rect id="ele1_5_" x="1419" y="137.3" fill="#AA57E5" stroke="#000000" stroke-miterlimit="10" width="191.1" height="181.8"/>
+				<rect id="ele2_5_" x="936.8" y="249.4" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191" height="181.8"/>
 				
-					<rect id="ele1_5_" x="1419" y="137.33" fill="#AA57E5" stroke="#000000" stroke-miterlimit="10" width="191.05" height="181.83"/>
+					<circle id="ele3_5_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1032.3" cy="340.4" r="105.4"/>
 				
-					<rect id="ele2_5_" x="936.8" y="249.44" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.05" height="181.83"/>
-				
-					<circle id="ele3_5_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1032.33" cy="340.36" r="105.41"/>
-				
-					<circle id="ele4_5_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1514.53" cy="228.24" r="105.41"/>
+					<circle id="ele4_5_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1514.5" cy="228.2" r="105.4"/>
 			</g>
 			<g id="Comparing::Couple_4_">
+				<rect id="ele1_4_" x="1545.5" y="364" fill="#AA57E5" stroke="#000000" stroke-miterlimit="10" width="191.1" height="181.8"/>
 				
-					<rect id="ele1_4_" x="1545.49" y="363.95" fill="#AA57E5" stroke="#000000" stroke-miterlimit="10" width="191.05" height="181.83"/>
-				
-					<rect id="ele2_4_" x="1063.29" y="476.07" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.05" height="181.83"/>
-				
-					<circle id="ele3_4_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1158.81" cy="566.98" r="105.41"/>
-				
-					<circle id="ele4_4_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1641.02" cy="454.86" r="105.41"/>
+					<rect id="ele2_4_" x="1063.3" y="476.1" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.1" height="181.8"/>
+				<circle id="ele3_4_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1158.8" cy="567" r="105.4"/>
+				<circle id="ele4_4_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1641" cy="454.9" r="105.4"/>
 			</g>
 			<g id="Comparing::Couple_3_">
 				
-					<rect id="ele1_3_" x="1629.82" y="593.21" fill="#AA57E5" stroke="#000000" stroke-miterlimit="10" width="191.05" height="181.83"/>
+					<rect id="ele1_3_" x="1629.8" y="593.2" fill="#AA57E5" stroke="#000000" stroke-miterlimit="10" width="191.1" height="181.8"/>
 				
-					<rect id="ele2_3_" x="1147.61" y="705.33" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.05" height="181.83"/>
+					<rect id="ele2_3_" x="1147.6" y="705.3" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.1" height="181.8"/>
 				
-					<circle id="ele3_3_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1243.14" cy="796.24" r="105.41"/>
+					<circle id="ele3_3_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1243.1" cy="796.2" r="105.4"/>
 				
-					<circle id="ele4_3_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1725.34" cy="684.12" r="105.41"/>
+					<circle id="ele4_3_" fill="none" stroke="#E259A8" stroke-width="16" stroke-miterlimit="10" cx="1725.3" cy="684.1" r="105.4"/>
 			</g>
 		</g>
 		<g id="Comparing::WinPop">
 			
-				<rect id="_x3C_Rectangle_x3E__1_" x="818.46" y="179.59" fill="#C1C2D3" stroke="#6B1E3E" stroke-miterlimit="10" width="923.08" height="720.81"/>
-			<path id="Comparing::BackButton" fill="#1E2668" d="M1280,855.74L1280,855.74c-35.84,0-64.89-29.05-64.89-64.89l0,0
-				c0-35.84,29.05-64.89,64.89-64.89l0,0c35.84,0,64.89,29.05,64.89,64.89l0,0C1344.89,826.68,1315.84,855.74,1280,855.74z"/>
+				<rect id="_x3C_Rectangle_x3E__1_" x="818.5" y="179.6" fill="#C1C2D3" stroke="#6B1E3E" stroke-miterlimit="10" width="923.1" height="720.8"/>
+			<path id="Comparing::BackButton" fill="#1E2668" d="M1280,855.7L1280,855.7c-35.8,0-64.9-29-64.9-64.9l0,0
+				c0-35.8,29.1-64.9,64.9-64.9l0,0c35.8,0,64.9,29,64.9,64.9l0,0C1344.9,826.7,1315.8,855.7,1280,855.7z"/>
 		</g>
 	</g>
 </g>
@@ -56,37 +51,47 @@
 	<g id="in::_x2A_::GameSet_x28_Mc_x2C_succ_x2C_fail_x29__1_">
 		<g id="Mc::AnswerGroup_1_">
 			<g id="Mc::Answer_1_">
-				<rect x="951.83" y="356.55" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.05" height="181.83"/>
+				<rect x="951.8" y="356.5" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191" height="181.8"/>
 				<text transform="matrix(1 0 0 1 1047.359 459.321)" font-family="'MyriadPro-Regular'" font-size="53.0049px">A</text>
 			</g>
 			<g id="Mc::Wrong_7_">
-				<rect x="1228.53" y="319.66" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.05" height="181.83"/>
+				<rect x="1228.5" y="319.7" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.1" height="181.8"/>
 				<text transform="matrix(1 0 0 1 1324.05 422.4289)" font-family="'MyriadPro-Regular'" font-size="53.0049px">B</text>
 			</g>
 			<g id="Mc::Wrong_6_">
-				<rect x="1444.61" y="376.31" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.05" height="181.83"/>
+				<rect x="1444.6" y="376.3" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.1" height="181.8"/>
 				<text transform="matrix(1 0 0 1 1540.1326 479.0847)" font-family="'MyriadPro-Regular'" font-size="53.0049px">C</text>
 			</g>
 			<g id="Mc::Wrong_5_">
-				<rect x="1635.66" y="174.72" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.05" height="181.83"/>
+				<rect x="1635.7" y="174.7" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.1" height="181.8"/>
 				<text transform="matrix(1 0 0 1 1731.1812 277.4955)" font-family="'MyriadPro-Regular'" font-size="53.0049px">D</text>
 			</g>
 			<g id="Mc::Wrong_4_">
-				<rect x="1755.56" y="410.57" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.05" height="181.83"/>
+				<rect x="1755.6" y="410.6" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.1" height="181.8"/>
 				<text transform="matrix(1 0 0 1 1851.0806 513.3417)" font-family="'MyriadPro-Regular'" font-size="53.0049px">E</text>
 			</g>
 		</g>
 		<g id="Mc::FailPop_1_">
 			
-				<rect id="_x3C_Rectangle_x3E__6_" x="908.59" y="175.3" fill="#D1C1C9" stroke="#6B1E3E" stroke-miterlimit="10" width="923.08" height="720.81"/>
-			<path id="Mc::FailBackButton_1_" fill="#661F4B" d="M1370.13,851.45L1370.13,851.45c-35.84,0-64.89-29.05-64.89-64.89l0,0
-				c0-35.84,29.05-64.89,64.89-64.89l0,0c35.84,0,64.89,29.05,64.89,64.89l0,0C1435.02,822.39,1405.97,851.45,1370.13,851.45z"/>
+				<rect id="_x3C_Rectangle_x3E__6_" x="908.6" y="175.3" fill="#D1C1C9" stroke="#6B1E3E" stroke-miterlimit="10" width="923.1" height="720.8"/>
+			<path id="Mc::FailBackButton_1_" fill="#661F4B" d="M1370.1,851.5L1370.1,851.5c-35.8,0-64.9-29-64.9-64.9l0,0
+				c0-35.8,29.1-64.9,64.9-64.9l0,0c35.8,0,64.9,29,64.9,64.9l0,0C1435,822.4,1406,851.5,1370.1,851.5z"/>
 		</g>
 		<g id="Mc::WinPop_2_">
 			
-				<rect id="_x3C_Rectangle_x3E__5_" x="908.59" y="175.3" fill="#C1C2D3" stroke="#6B1E3E" stroke-miterlimit="10" width="923.08" height="720.81"/>
-			<path id="Mc::SuccBackButton_1_" fill="#1E2668" d="M1370.13,851.45L1370.13,851.45c-35.84,0-64.89-29.05-64.89-64.89l0,0
-				c0-35.84,29.05-64.89,64.89-64.89l0,0c35.84,0,64.89,29.05,64.89,64.89l0,0C1435.02,822.39,1405.97,851.45,1370.13,851.45z"/>
+				<rect id="_x3C_Rectangle_x3E__5_" x="908.6" y="175.3" fill="#C1C2D3" stroke="#6B1E3E" stroke-miterlimit="10" width="923.1" height="720.8"/>
+			<g>
+				<rect id="in::k1_1_" x="1034" y="253" opacity="0" fill="#3345EF" enable-background="new    " width="523" height="84"/>
+				<polygon id="in::_x2A_::ActClickShow_x28_k1_x29_::ActClickShow_x28_k2b_x29_" fill="#3345EF" points="1683,296.3 1608,253 
+					1608,339.6 				"/>
+				<rect id="in::k2" x="1034" y="385" opacity="0" fill="#3345EF" enable-background="new    " width="523" height="84"/>
+				<polygon id="in::k2b::ActClickShow_x28_k2_x29_::ActClickShow_x28_k3b_x29_" opacity="0" fill="#3345EF" points="1683,428.3 
+					1608,385 1608,471.6 				"/>
+				<rect id="in::k3" x="1034" y="517" opacity="0" fill="#3345EF" enable-background="new    " width="523" height="84"/>
+				<polygon id="in::k3b::ActClickShow_x28_k3_x29_" opacity="0" fill="#3345EF" points="1683,560.3 1608,517 1608,603.6 				"/>
+			</g>
+			<path id="Mc::SuccBackButton_1_" fill="#1E2668" d="M1370.1,851.5L1370.1,851.5c-35.8,0-64.9-29-64.9-64.9l0,0
+				c0-35.8,29.1-64.9,64.9-64.9l0,0c35.8,0,64.9,29,64.9,64.9l0,0C1435,822.4,1406,851.5,1370.1,851.5z"/>
 		</g>
 	</g>
 </g>
@@ -147,9 +152,9 @@
 		</g>
 		<g id="DragSlot::WinPop_1_">
 			
-				<rect id="_x3C_Rectangle_x3E__3_" x="818.46" y="179.59" fill="#C1C2D3" stroke="#6B1E3E" stroke-miterlimit="10" width="923.08" height="720.81"/>
-			<path id="ConnectLine::BackButton_3_" fill="#1E2668" d="M1280,855.74L1280,855.74c-35.84,0-64.89-29.05-64.89-64.89l0,0
-				c0-35.84,29.05-64.89,64.89-64.89l0,0c35.84,0,64.89,29.05,64.89,64.89l0,0C1344.89,826.68,1315.84,855.74,1280,855.74z"/>
+				<rect id="_x3C_Rectangle_x3E__3_" x="818.5" y="179.6" fill="#C1C2D3" stroke="#6B1E3E" stroke-miterlimit="10" width="923.1" height="720.8"/>
+			<path id="ConnectLine::BackButton_3_" fill="#1E2668" d="M1280,855.7L1280,855.7c-35.8,0-64.9-29-64.9-64.9l0,0
+				c0-35.8,29.1-64.9,64.9-64.9l0,0c35.8,0,64.9,29,64.9,64.9l0,0C1344.9,826.7,1315.8,855.7,1280,855.7z"/>
 		</g>
 	</g>
 </g>
@@ -157,43 +162,42 @@
 	<g id="in::_x2A_::GameSet_x28_ConnectLine_x2C_succ_x29_">
 		<g id="ConnectLine::LineGroup">
 			<g id="ConnectLine::G3">
-				<circle fill="#1E4268" cx="1589.34" cy="429.04" r="36.23"/>
-				<circle fill="#1E4268" cx="977.99" cy="429.04" r="36.23"/>
+				<circle fill="#1E4268" cx="1589.3" cy="429" r="36.2"/>
+				<circle fill="#1E4268" cx="978" cy="429" r="36.2"/>
 			</g>
 			<g id="ConnectLine::G2">
-				<circle fill="#6B1E3E" cx="1589.34" cy="552.89" r="36.23"/>
-				<circle fill="#6B1E3E" cx="977.99" cy="552.89" r="36.23"/>
+				<circle fill="#6B1E3E" cx="1589.3" cy="552.9" r="36.2"/>
+				<circle fill="#6B1E3E" cx="978" cy="552.9" r="36.2"/>
 			</g>
 			<g id="ConnectLine::G1">
-				<circle fill="#1F6638" cx="1589.34" cy="295.96" r="36.23"/>
-				<circle fill="#1F6638" cx="977.99" cy="295.96" r="36.23"/>
+				<circle fill="#1F6638" cx="1589.3" cy="296" r="36.2"/>
+				<circle fill="#1F6638" cx="978" cy="296" r="36.2"/>
 			</g>
 		</g>
 		<g id="ConnectLine::WinPop_1_">
 			
-				<rect id="_x3C_Rectangle_x3E__2_" x="818.46" y="179.59" fill="#C1C2D3" stroke="#6B1E3E" stroke-miterlimit="10" width="923.08" height="720.81"/>
-			<path id="ConnectLine::BackButton_1_" fill="#1E2668" d="M1280,855.74L1280,855.74c-35.84,0-64.89-29.05-64.89-64.89l0,0
-				c0-35.84,29.05-64.89,64.89-64.89l0,0c35.84,0,64.89,29.05,64.89,64.89l0,0C1344.89,826.68,1315.84,855.74,1280,855.74z"/>
+				<rect id="_x3C_Rectangle_x3E__2_" x="818.5" y="179.6" fill="#C1C2D3" stroke="#6B1E3E" stroke-miterlimit="10" width="923.1" height="720.8"/>
+			<path id="ConnectLine::BackButton_1_" fill="#1E2668" d="M1280,855.7L1280,855.7c-35.8,0-64.9-29-64.9-64.9l0,0
+				c0-35.8,29.1-64.9,64.9-64.9l0,0c35.8,0,64.9,29,64.9,64.9l0,0C1344.9,826.7,1315.8,855.7,1280,855.7z"/>
 		</g>
 	</g>
 </g>
 <g id="Page_x40_3">
 	<g id="in::_x2A_::GameSet_x28_RadiationDrag_x2C_horizontal_x2C_0_x2C_1000_x29_">
-		<rect x="760.79" y="392.42" fill="#009E47" width="100" height="100"/>
-		<rect x="760.79" y="379.68" fill="#470099" width="100" height="100"/>
-		<rect x="760.79" y="366.94" fill="#8C009B" width="100" height="100"/>
+		<rect x="760.8" y="392.4" fill="#009E47" width="100" height="100"/>
+		<rect x="760.8" y="379.7" fill="#470099" width="100" height="100"/>
+		<rect x="760.8" y="366.9" fill="#8C009B" width="100" height="100"/>
 	</g>
 </g>
 <g id="Page_x40_2">
 	<rect fill="#458464" width="2560" height="1080"/>
-	<polygon id="in::lPoly" fill="#FFFFFF" points="1176.9,223.12 1088.62,223.12 1044.48,299.57 1088.62,376.02 1176.9,376.02 
-		1221.04,299.57 	"/>
-	<polygon id="in::rPoly::transition_x3D_ease_x2A_0.5" fill="#FFFFFF" points="1471.38,223.12 1383.1,223.12 1338.96,299.57 
-		1383.1,376.02 1471.38,376.02 1515.52,299.57 	"/>
+	<polygon id="in::lPoly" fill="#FFFFFF" points="1176.9,223.1 1088.6,223.1 1044.5,299.6 1088.6,376 1176.9,376 1221,299.6 	"/>
+	<polygon id="in::rPoly::transition_x3D_ease_x2A_0.5" fill="#FFFFFF" points="1471.4,223.1 1383.1,223.1 1339,299.6 1383.1,376 
+		1471.4,376 1515.5,299.6 	"/>
 	
 		<path id="in::ActClickHide_x28_lPoly_x2C_toggle_x29_::ActClickMove_x28_rPoly_x2C_0_x2C_-150_x2C_-150_x2C_toggle_x29_" fill="#FFFFFF" d="
-		M1330.4,872.06h-100.8c-27.83,0-50.4-22.56-50.4-50.4l0,0c0-27.83,22.56-50.4,50.4-50.4h100.79c27.83,0,50.4,22.56,50.4,50.4l0,0
-		C1380.79,849.5,1358.23,872.06,1330.4,872.06z"/>
+		M1330.4,872.1h-100.8c-27.8,0-50.4-22.6-50.4-50.4l0,0c0-27.8,22.6-50.4,50.4-50.4h100.8c27.8,0,50.4,22.6,50.4,50.4l0,0
+		C1380.8,849.5,1358.2,872.1,1330.4,872.1z"/>
 	<text id="te" transform="matrix(1 0 0 1 770.3814 453.1299)" font-family="'MyriadPro-Regular'" font-size="38.1245px">ActClickHide(lPoly,toggle)</text>
 	<text transform="matrix(1 0 0 1 1291.0347 453.1303)" font-family="'MyriadPro-Regular'" font-size="38.1245px">ActClickMove(rPoly,0,-150,-150,toggle)</text>
 	<text transform="matrix(1 0 0 1 1291.0347 498.8803)" font-family="'MyriadPro-Regular'" font-size="38.1245px">::transition=ease*0.5</text>
@@ -202,35 +206,35 @@
 	<text id="text_1_" transform="matrix(1 0 0 1 1083.6057 854.9839)" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickShow(pop,toggle)</text>
 	<text id="text_2_" transform="matrix(1 0 0 1 1410.8411 445.1026)" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::pop::transition=linear*0.5</text>
 	
-		<rect id="in::pop::transition_x3D_linear_x2A_0.5" x="1192.71" y="354.91" opacity="0.04" fill="#994D33" enable-background="new    " width="174.58" height="158.11"/>
-	<polygon id="in::_x2A_::ActClickShow_x28_pop_x2C_toggle_x29_" fill="#994D33" points="1320.39,605.46 1239.61,605.46 
-		1199.23,675.41 1239.61,745.36 1320.39,745.36 1360.77,675.41 	"/>
+		<rect id="in::pop::transition_x3D_linear_x2A_0.5" x="1192.7" y="354.9" opacity="4.000000e-02" fill="#994D33" enable-background="new    " width="174.6" height="158.1"/>
+	<polygon id="in::_x2A_::ActClickShow_x28_pop_x2C_toggle_x29_" fill="#994D33" points="1320.4,605.5 1239.6,605.5 1199.2,675.4 
+		1239.6,745.4 1320.4,745.4 1360.8,675.4 	"/>
 </g>
 <g id="Page_x40_0">
 	<rect id="background" fill="#60A582" width="2560" height="1080"/>
 	
-		<rect id="in::_x2A_::ActClickHide_x28_circleToHide_x2C_toggle_x29_::ActClickShow_x28_pButton_x29_" x="1003.34" y="362.13" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="249.02" height="274.71"/>
+		<rect id="in::_x2A_::ActClickHide_x28_circleToHide_x2C_toggle_x29_::ActClickShow_x28_pButton_x29_" x="1003.3" y="362.1" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="249" height="274.7"/>
 	<path id="in::circleToHide::transition_x3D_linear_x2A_0.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="
-		M1459.88,636.84L1459.88,636.84c-68.77,0-124.51-55.75-124.51-124.51v-25.69c0-68.77,55.75-124.51,124.51-124.51l0,0
-		c68.77,0,124.51,55.75,124.51,124.51v25.69C1584.39,581.1,1528.64,636.84,1459.88,636.84z"/>
-	<polygon id="in::pButton::PageNext_x28__x29_" opacity="0.05" fill="#FFFFFF" enable-background="new    " points="1280,1080 
-		1323.3,1005 1236.7,1005 	"/>
+		M1459.9,636.8L1459.9,636.8c-68.8,0-124.5-55.8-124.5-124.5v-25.7c0-68.8,55.8-124.5,124.5-124.5l0,0
+		c68.8,0,124.5,55.8,124.5,124.5v25.7C1584.4,581.1,1528.6,636.8,1459.9,636.8z"/>
+	<polygon id="in::pButton::PageNext_x28__x29_" opacity="5.000000e-02" fill="#FFFFFF" enable-background="new    " points="
+		1280,1080 1323.3,1005 1236.7,1005 	"/>
 	
 		<text id="text" transform="matrix(1 0 0 1 794.5885 702.1023)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickHide(circleToHide,toggle)</text>
 	<text transform="matrix(1 0 0 1 1381.3455 702.1025)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">circleToHide</text>
 </g>
 <g id="General">
-	<polygon id="in::_x2A_::PageNext_x28__x29_::NavHideAt_x28_7_x29_::NavShowAt_x28_6_x29_" fill="#4917AA" points="620.03,1080 
-		648.9,1030 591.16,1030 	"/>
-	<circle id="in::_x2A_::NavHideAt_x28_1_x29_" fill="#4917AA" cx="620.03" cy="540.47" r="28.23"/>
-	<polygon id="in::_x2A_::PagePrev_x28__x29_::NavHideAt_x28_0_x29_::NavShowAt_x28_1_x29_" fill="#4917AA" points="620.03,0 
-		590.08,51.87 649.98,51.87 	"/>
-	<rect id="pageConfig::transition::ease_x2A_0.4" x="2517.24" y="23.21" fill="none" width="18.78" height="18.78"/>
-	<rect id="pageConfig::transitionMode::topDownScroll" x="2517.24" y="30.95" fill="none" width="18.78" height="18.78"/>
-	<rect id="audio::succ::success.mp3_1_" x="2517.24" y="49.73" fill="none" width="18.78" height="18.78"/>
-	<rect id="audio::fail::fail.mp3" x="2517.24" y="50.88" fill="none" width="18.78" height="18.78"/>
-	<rect id="audio::bgm::bgm.mp3_1_" x="2517.24" y="54.83" fill="none" width="18.78" height="18.78"/>
-	<rect id="audio::basic::drop.mp3_2_" x="2517.24" y="78.55" fill="none" width="18.78" height="18.78"/>
+	<polygon id="in::_x2A_::PageNext_x28__x29_::NavHideAt_x28_7_x29_::NavShowAt_x28_6_x29_" fill="#4917AA" points="620,1080 
+		648.9,1030 591.2,1030 	"/>
+	<circle id="in::_x2A_::NavHideAt_x28_1_x29_" fill="#4917AA" cx="620" cy="540.5" r="28.2"/>
+	<polygon id="in::_x2A_::PagePrev_x28__x29_::NavHideAt_x28_0_x29_::NavShowAt_x28_1_x29_" fill="#4917AA" points="620,0 
+		590.1,51.9 650,51.9 	"/>
+	<rect id="pageConfig::transition::ease_x2A_0.4" x="2517.2" y="23.2" fill="none" width="18.8" height="18.8"/>
+	<rect id="pageConfig::transitionMode::topDownScroll" x="2517.2" y="31" fill="none" width="18.8" height="18.8"/>
+	<rect id="audio::succ::success.mp3_1_" x="2517.2" y="49.7" fill="none" width="18.8" height="18.8"/>
+	<rect id="audio::fail::fail.mp3" x="2517.2" y="50.9" fill="none" width="18.8" height="18.8"/>
+	<rect id="audio::bgm::bgm.mp3_1_" x="2517.2" y="54.8" fill="none" width="18.8" height="18.8"/>
+	<rect id="audio::basic::drop.mp3_2_" x="2517.2" y="78.6" fill="none" width="18.8" height="18.8"/>
 	<rect x="560" fill="none" stroke="#000000" stroke-miterlimit="10" width="1440" height="1080"/>
 </g>
 </svg>
