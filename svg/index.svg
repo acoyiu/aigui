@@ -121,11 +121,11 @@
 <g id="Page_x40_0">
 	<rect id="background" fill="#60A582" width="2560" height="1080"/>
 	
-		<rect id="in::_x2A_::ActClickHide_x28_circleToHide_x2C_toggle_x29_" x="1003.34" y="362.13" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="249.02" height="274.71"/>
+		<rect id="in::_x2A_::ActClickHide_x28_circleToHide_x2C_toggle_x29_::ActClickShow_x28_pButton_x29_" x="1003.34" y="362.13" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="249.02" height="274.71"/>
 	<path id="in::circleToHide::transition_x3D_linear_x2A_0.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="
 		M1459.88,636.84L1459.88,636.84c-68.77,0-124.51-55.75-124.51-124.51v-25.69c0-68.77,55.75-124.51,124.51-124.51l0,0
 		c68.77,0,124.51,55.75,124.51,124.51v25.69C1584.39,581.1,1528.64,636.84,1459.88,636.84z"/>
-	<polygon id="in::_x2A_::PageNext_x28__x29_" fill="#FFFFFF" points="1280,1080 1323.3,1005 1236.7,1005 	"/>
+	<polygon id="in::pButton::PageNext_x28__x29_" opacity="0.05" fill="#FFFFFF" points="1280,1080 1323.3,1005 1236.7,1005 	"/>
 	
 		<text id="text" transform="matrix(1 0 0 1 794.5885 702.1023)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickHide(circleToHide,toggle)</text>
 	<text transform="matrix(1 0 0 1 1381.3455 702.1025)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">circleToHide</text>
@@ -137,7 +137,7 @@
 	<polygon id="in::_x2A_::PagePrev_x28__x29_::NavHideAt_x28_0_x29_::NavShowAt_x28_1_x29_" fill="#4917AA" points="620.03,0 
 		590.08,51.87 649.98,51.87 	"/>
 	<rect id="pageConfig::transition::ease_x2A_0.4" x="2517.24" y="23.21" fill="none" width="18.78" height="18.78"/>
-	<rect id="pageConfig::transitionMode::fade_1_" x="2517.24" y="30.95" fill="none" width="18.78" height="18.78"/>
+	<rect id="pageConfig::transitionMode::topDownScroll" x="2517.24" y="30.95" fill="none" width="18.78" height="18.78"/>
 	<rect id="audio::succ::success.mp3_1_" x="2517.24" y="49.73" fill="none" width="18.78" height="18.78"/>
 	<rect id="audio::bgm::bgm.mp3" x="2517.24" y="50.88" fill="none" width="18.78" height="18.78"/>
 	<rect id="audio::basic::drop.mp3_2_" x="2517.24" y="78.55" fill="none" width="18.78" height="18.78"/>
