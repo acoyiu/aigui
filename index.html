@@ -265,8 +265,7 @@
 
             // setup page transition after first position update
             setTimeout(() => {
-                MissionCache.allPages.forEach(pageTag => {
-                    console.log('00000909090909090909', window.thePageTransition);
+                MissionCache.allPages.forEach(pageTag => { 
                     pageTag.style.transition = window.thePageTransition;
                 });
             }, 100);
