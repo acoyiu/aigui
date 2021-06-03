@@ -24,7 +24,8 @@
             z-index: 999999;
         }
     </style>
-    
+
+    <link rel="stylesheet" href="./lib/foreignHandle.css">
 </head>
 
 <body>
@@ -39,7 +40,7 @@
     <script src="./lib/updateNav.js"></script>
     <script src="./lib/updateAction.js"></script>
     <script src="./lib/foreignHandle.js"></script>
-    <script src="./lib/updateTransition.js"></script> 
+    <script src="./lib/updateTransition.js"></script>
 
     <script>
         // remove log
@@ -139,6 +140,9 @@
                 updatePageByIndex();
                 changePageCallback.forEach(func => func(currentPageIndex, MissionCache.allPages.length));
             };
+
+            ForeignHandle();
+
 
             initContent();
         };
