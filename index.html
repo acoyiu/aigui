@@ -24,6 +24,7 @@
             z-index: 999999;
         }
     </style>
+    
 </head>
 
 <body>
@@ -37,7 +38,8 @@
     <script src="./lib/gameSet.js"></script>
     <script src="./lib/updateNav.js"></script>
     <script src="./lib/updateAction.js"></script>
-    <script src="./lib/updateTransition.js"></script>
+    <script src="./lib/foreignHandle.js"></script>
+    <script src="./lib/updateTransition.js"></script> 
 
     <script>
         // remove log
@@ -54,6 +56,7 @@
             navElements: [],
             pageChanger: [],
             transitioner: [],
+            foreignThings: [],
             allInteractive: [],
         };
 
@@ -117,8 +120,6 @@
                     .from(document.querySelectorAll('[id^="Page"]'))
                     .filter(page => page.style.display != 'none' && page.getAttribute('display') != 'none')
                     .map(pageTag => {
-                        console.log('=p=-=-=-');
-                        console.log(pageTag);
                         pageTag.id = pageTag.id.split('_')[0];
                         return pageTag;
                     })
@@ -138,7 +139,6 @@
                 updatePageByIndex();
                 changePageCallback.forEach(func => func(currentPageIndex, MissionCache.allPages.length));
             };
-
 
             initContent();
         };
@@ -265,7 +265,7 @@
 
             // setup page transition after first position update
             setTimeout(() => {
-                MissionCache.allPages.forEach(pageTag => { 
+                MissionCache.allPages.forEach(pageTag => {
                     pageTag.style.transition = window.thePageTransition;
                 });
             }, 100);
@@ -294,14 +294,16 @@
 
 
         start();
-        window.onresize = () => {
-            theView = new AiJs.View(
-                svgRootTag,
-                {
-                    isMobile: true,
-                    isHorizontal: true,
-                }
-            );
-        };
+        setTimeout(() => {
+            window.onresize = () => {
+                theView = new AiJs.View(
+                    svgRootTag,
+                    {
+                        isMobile: true,
+                        isHorizontal: true,
+                    }
+                );
+            };
+        }, 1000);
     </script>
 </body>

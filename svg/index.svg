@@ -2,7 +2,7 @@
 <!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 2560 1080" enable-background="new 0 0 2560 1080" xml:space="preserve">
-<g id="Page_x40_8">
+<g id="Page_x40_9">
 	<g id="in::_x2A_::GameSet_x28_McConfirm_x2C_succ_x2C_fail_x29_">
 		<polygon id="McConfirm::ConfirmButton" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" points="1308.4,752 1339.2,814.5 
 			1408,824.5 1358.2,873 1370,941.7 1308.4,909.3 1246.7,941.7 1258.5,873 1208.7,824.5 1277.6,814.5 		"/>
@@ -46,8 +46,8 @@
 		</g>
 	</g>
 </g>
-<g id="Page_x40_7" display="none">
-	<g id="in::_x2A_::GameSet_x28_Comparing_x2C_succ_x29_" display="inline">
+<g id="Page_x40_8_1_">
+	<g id="in::_x2A_::GameSet_x28_Comparing_x2C_succ_x29_">
 		<g id="Comparing::Score_1_">
 			
 				<rect id="Comparing::S3" x="1280" y="963.6" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191.1" height="59.9"/>
@@ -91,8 +91,8 @@
 		</g>
 	</g>
 </g>
-<g id="Page_x40_6_1_" display="none">
-	<g id="in::_x2A_::GameSet_x28_Mc_x2C_succ_x2C_fail_x29__1_" display="inline">
+<g id="Page_x40_7_1_">
+	<g id="in::_x2A_::GameSet_x28_Mc_x2C_succ_x2C_fail_x29__1_">
 		<g id="Mc::AnswerGroup_1_">
 			<g id="Mc::Answer_1_">
 				<rect x="951.8" y="356.5" fill="#555B93" stroke="#000000" stroke-miterlimit="10" width="191" height="181.8"/>
@@ -140,11 +140,11 @@
 		</g>
 	</g>
 </g>
-<g id="Page_x40_5" display="none">
+<g id="Page_x40_6">
 	
-		<image display="inline" overflow="visible" enable-background="new    " width="4471" height="2975" xlink:href="example/ED692EE756160780.png"  transform="matrix(0.2397 0 0 0.2397 744.12 183.4791)">
+		<image overflow="visible" enable-background="new    " width="4471" height="2975" xlink:href="example/ED692EE756160780.png"  transform="matrix(0.2397 0 0 0.2397 744.12 183.4791)">
 	</image>
-	<g id="in::_x2A_::GameSet_x28_DragSlot_x2C_succ_x29_" display="inline">
+	<g id="in::_x2A_::GameSet_x28_DragSlot_x2C_succ_x29_">
 		<g id="DragSlot::DragGroup">
 			<g id="DragSlot::G6">
 				
@@ -203,8 +203,8 @@
 		</g>
 	</g>
 </g>
-<g id="Page_x40_4" display="none">
-	<g id="in::_x2A_::GameSet_x28_ConnectLine_x2C_succ_x29_" display="inline">
+<g id="Page_x40_5_1_">
+	<g id="in::_x2A_::GameSet_x28_ConnectLine_x2C_succ_x29_">
 		<g id="ConnectLine::LineGroup">
 			<g id="ConnectLine::G3">
 				<circle fill="#1E4268" cx="1589.3" cy="429" r="36.2"/>
@@ -227,56 +227,53 @@
 		</g>
 	</g>
 </g>
-<g id="Page_x40_3" display="none">
-	<g id="in::_x2A_::GameSet_x28_RadiationDrag_x2C_horizontal_x2C_0_x2C_1000_x29_" display="inline">
+<g id="Page_x40_4_1_">
+	<g id="in::_x2A_::GameSet_x28_RadiationDrag_x2C_horizontal_x2C_0_x2C_1000_x29_">
 		<rect x="760.8" y="392.4" fill="#009E47" width="100" height="100"/>
 		<rect x="760.8" y="379.7" fill="#470099" width="100" height="100"/>
 		<rect x="760.8" y="366.9" fill="#8C009B" width="100" height="100"/>
 	</g>
 </g>
-<g id="Page_x40_2" display="none">
-	<rect display="inline" fill="#458464" width="2560" height="1080"/>
-	<polygon id="in::lPoly" display="inline" fill="#FFFFFF" points="1176.9,223.1 1088.6,223.1 1044.5,299.6 1088.6,376 1176.9,376 
-		1221,299.6 	"/>
-	<polygon id="in::rPoly::transition_x3D_ease_x2A_0.5" display="inline" fill="#FFFFFF" points="1471.4,223.1 1383.1,223.1 
-		1339,299.6 1383.1,376 1471.4,376 1515.5,299.6 	"/>
+<g id="Page_x40_3_1_">
+	<rect fill="#458464" width="2560" height="1080"/>
+	<polygon id="in::lPoly" fill="#FFFFFF" points="1176.9,223.1 1088.6,223.1 1044.5,299.6 1088.6,376 1176.9,376 1221,299.6 	"/>
+	<polygon id="in::rPoly::transition_x3D_ease_x2A_0.5" fill="#FFFFFF" points="1471.4,223.1 1383.1,223.1 1339,299.6 1383.1,376 
+		1471.4,376 1515.5,299.6 	"/>
 	
-		<path id="in::ActClickHide_x28_lPoly_x2C_toggle_x29_::ActClickMove_x28_rPoly_x2C_0_x2C_-150_x2C_-150_x2C_toggle_x29_" display="inline" fill="#FFFFFF" d="
+		<path id="in::ActClickHide_x28_lPoly_x2C_toggle_x29_::ActClickMove_x28_rPoly_x2C_0_x2C_-150_x2C_-150_x2C_toggle_x29_" fill="#FFFFFF" d="
 		M1330.4,872.1h-100.8c-27.8,0-50.4-22.6-50.4-50.4l0,0c0-27.8,22.6-50.4,50.4-50.4h100.8c27.8,0,50.4,22.6,50.4,50.4l0,0
 		C1380.8,849.5,1358.2,872.1,1330.4,872.1z"/>
-	
-		<text id="te" transform="matrix(1 0 0 1 770.3814 453.1299)" display="inline" font-family="'MyriadPro-Regular'" font-size="38.1245px">ActClickHide(lPoly,toggle)</text>
-	<text transform="matrix(1 0 0 1 1291.0347 453.1303)" display="inline" font-family="'MyriadPro-Regular'" font-size="38.1245px">ActClickMove(rPoly,0,-150,-150,toggle)</text>
-	<text transform="matrix(1 0 0 1 1291.0347 498.8803)" display="inline" font-family="'MyriadPro-Regular'" font-size="38.1245px">::transition=ease*0.5</text>
+	<text id="te" transform="matrix(1 0 0 1 770.3814 453.1299)" font-family="'MyriadPro-Regular'" font-size="38.1245px">ActClickHide(lPoly,toggle)</text>
+	<text transform="matrix(1 0 0 1 1291.0347 453.1303)" font-family="'MyriadPro-Regular'" font-size="38.1245px">ActClickMove(rPoly,0,-150,-150,toggle)</text>
+	<text transform="matrix(1 0 0 1 1291.0347 498.8803)" font-family="'MyriadPro-Regular'" font-size="38.1245px">::transition=ease*0.5</text>
 </g>
-<g id="Page_x40_1" display="none">
+<g id="Page_x40_2_1_">
+	<text id="text_1_" transform="matrix(1 0 0 1 1083.6057 854.9839)" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickShow(pop,toggle)</text>
+	<text id="text_2_" transform="matrix(1 0 0 1 1410.8411 445.1026)" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::pop::transition=linear*0.5</text>
 	
-		<text id="text_1_" transform="matrix(1 0 0 1 1083.6057 854.9839)" display="inline" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickShow(pop,toggle)</text>
-	
-		<text id="text_2_" transform="matrix(1 0 0 1 1410.8411 445.1026)" display="inline" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::pop::transition=linear*0.5</text>
-	
-		<rect id="in::pop::transition_x3D_linear_x2A_0.5" x="1192.7" y="354.9" display="inline" opacity="4.000000e-02" fill="#994D33" enable-background="new    " width="174.6" height="158.1"/>
-	<polygon id="in::_x2A_::ActClickShow_x28_pop_x2C_toggle_x29_" display="inline" fill="#994D33" points="1320.4,605.5 
-		1239.6,605.5 1199.2,675.4 1239.6,745.4 1320.4,745.4 1360.8,675.4 	"/>
+		<rect id="in::pop::transition_x3D_linear_x2A_0.5" x="1192.7" y="354.9" opacity="4.000000e-02" fill="#994D33" enable-background="new    " width="174.6" height="158.1"/>
+	<polygon id="in::_x2A_::ActClickShow_x28_pop_x2C_toggle_x29_" fill="#994D33" points="1320.4,605.5 1239.6,605.5 1199.2,675.4 
+		1239.6,745.4 1320.4,745.4 1360.8,675.4 	"/>
 </g>
-<g id="Page_x40_0" display="none">
-	<rect id="background" display="inline" fill="#60A582" width="2560" height="1080"/>
+<g id="Page_x40_1_1_">
+	<rect id="background" fill="#60A582" width="2560" height="1080"/>
 	
-		<rect id="in::_x2A_::ActClickHide_x28_circleToHide_x2C_toggle_x29_::ActClickShow_x28_pButton_x29_" x="1003.3" y="362.1" display="inline" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="249" height="274.7"/>
-	
-		<path id="in::circleToHide::transition_x3D_linear_x2A_0.5" display="inline" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="
+		<rect id="in::_x2A_::ActClickHide_x28_circleToHide_x2C_toggle_x29_::ActClickShow_x28_pButton_x29_" x="1003.3" y="362.1" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="249" height="274.7"/>
+	<path id="in::circleToHide::transition_x3D_linear_x2A_0.5" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="
 		M1459.9,636.8L1459.9,636.8c-68.8,0-124.5-55.8-124.5-124.5v-25.7c0-68.8,55.8-124.5,124.5-124.5l0,0
 		c68.8,0,124.5,55.8,124.5,124.5v25.7C1584.4,581.1,1528.6,636.8,1459.9,636.8z"/>
-	
-		<polygon id="in::pButton::PageNext_x28__x29_" display="inline" opacity="5.000000e-02" fill="#FFFFFF" enable-background="new    " points="
+	<polygon id="in::pButton::PageNext_x28__x29_" opacity="5.000000e-02" fill="#FFFFFF" enable-background="new    " points="
 		1280,1080 1323.3,1005 1236.7,1005 	"/>
 	
-		<text id="text" transform="matrix(1 0 0 1 794.5885 702.1023)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickHide(circleToHide,toggle)</text>
-	
-		<text transform="matrix(1 0 0 1 1381.3455 702.1025)" display="inline" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">circleToHide</text>
+		<text id="text" transform="matrix(1 0 0 1 794.5885 702.1023)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickHide(circleToHide,toggle)</text>
+	<text transform="matrix(1 0 0 1 1381.3455 702.1025)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">circleToHide</text>
+</g>
+<g id="Page_x40_0">
+	<rect x="918.4" y="268" fill="#60A582" width="424.3" height="260.9"/>
+	<rect id="foreign::lottie::s2.json" x="1288.6" y="614.5" fill="#60A582" width="424.3" height="260.9"/>
 </g>
 <g id="General">
-	<polygon id="in::_x2A_::PageNext_x28__x29_::NavHideAt_x28_7_x29_::NavShowAt_x28_6_x29_" fill="#4917AA" points="620,1080 
+	<polygon id="in::_x2A_::PageNext_x28__x29_::NavHideAt_x28_9_x29_::NavShowAt_x28_8_x29_" fill="#4917AA" points="620,1080 
 		648.9,1030 591.2,1030 	"/>
 	<circle id="in::_x2A_::NavHideAt_x28_1_x29_" fill="#4917AA" cx="620" cy="540.5" r="28.2"/>
 	<polygon id="in::_x2A_::PagePrev_x28__x29_::NavHideAt_x28_0_x29_::NavShowAt_x28_1_x29_" fill="#4917AA" points="620,0 
