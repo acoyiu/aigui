@@ -10,17 +10,21 @@ echo "Opening $varname ..."
 
 TPath=${BASH_SOURCE[0]/'init.command'/''}
 echo $TPath
+echo ''
 
-unlink "${TPath}/target"
-echo "previous link unlinked."
+unlink "${TPath}target"
+echo "previous link unlinked (if applicable)."
+echo ''
 
 ln -s "$varname" "${TPath}/target"
+echo "new link created."
+echo ''
 
 cd "${TPath}"
+echo "entered ${TPath}"
+echo ''
 
-python -m SimpleHTTPServer 7070
-
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs "http://localhost:7070"
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --auto-open-devtools-for-tabs "http://localhost:7070" & python -m SimpleHTTPServer 7070
 
 
 # if can't run on Apple

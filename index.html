@@ -3,6 +3,7 @@
         * {
             margin: 0;
             padding: 0;
+            touch-action: manipulation;
         }
 
         html,
@@ -24,6 +25,9 @@
             z-index: 999999;
         }
     </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="./lib/foreignHandle.css">
 </head>
@@ -65,7 +69,7 @@
             document.getElementById('container').style.opacity = 0;
 
             let svgText;
-            if (!window.location.search.includes('log')) svgText = await (await fetch('./target/index.svg')).text();
+            if (!window.location.search.includes('default')) svgText = await (await fetch('./target/index.svg')).text();
             else svgText = await (await fetch('./svg/index.svg')).text();
 
             svgText = svgText
@@ -145,7 +149,7 @@
 
             // ForeignHandle();
 
-            
+
             initContent();
         };
         window.changePageCallback = [];
