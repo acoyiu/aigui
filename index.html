@@ -144,9 +144,15 @@
 
 
             window.changePage = toNext => {
-                toNext
-                    ? currentPageIndex++
-                    : currentPageIndex--;
+                console.log('toNext', toNext);
+                if (typeof toNext === 'boolean') {
+                    toNext
+                        ? currentPageIndex++
+                        : currentPageIndex--;
+                }
+                else if (typeof toNext === 'number') {
+                    currentPageIndex = toNext;
+                }
                 updatePageByIndex();
                 changePageCallback.forEach(func => func(currentPageIndex, MissionCache.allPages.length));
             };
