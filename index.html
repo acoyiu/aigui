@@ -99,6 +99,7 @@
 
         let svgRootTag,
             theView;
+
         const initPages = async () => {
 
             await AudioInit();
@@ -141,9 +142,10 @@
                 changePageCallback.forEach(func => func(currentPageIndex, MissionCache.allPages.length));
             };
 
-            ForeignHandle();
 
+            // ForeignHandle();
 
+            
             initContent();
         };
         window.changePageCallback = [];
