@@ -90,7 +90,12 @@
                 .replace(/_x2C_/g, ',')
                 .replace(/<\?xml(.*?)>/g, '')
                 .replace(/<!--(.*?)-->/g, '')
-                .replace(/xlink\:href\=\"/g, 'xlink:href="./svg/');
+                .replace(
+                    /xlink\:href\=\"/g,
+                    window.location.search.includes('default')
+                        ? 'xlink:href="./svg/'
+                        : 'xlink:href="./target/'
+                );
             console.log(svgText);
             document.getElementById('container').innerHTML = svgText;
 
