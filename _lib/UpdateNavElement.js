@@ -75,86 +75,25 @@
                     }
                 );
             });
-    };
-
-
-
-
-
-
-    function UpdateNav() {
-        // console.log(MissionCache.navElements);
-
-        MissionCache
-            .navElements
-            .map(el => {
-                let attis = el.transformElement.id.split('::');
-                attis.shift();
-                attis.shift();
-                attis = attis.filter(attr => attr.startsWith('Nav'));
-                return [attis, el]
-            })
-            .forEach(([arr_navAction, transformerObj]) => {
-
-                // console.log('arr_navAction, transformerObj', arr_navAction, transformerObj);
-
-                arr_navAction.forEach(
-                    actStr => {
-
-                        // console.log('actStr', actStr);
-
-                        const [actName, fullStr] = actStr.split('(');
-
-                        const [targetPageNum, toRangeNum] = fullStr.split(')')[0].split(',').map(el => Number(el));
-                        // console.log('targetPageNum', targetPageNum, toRangeNum);
-
-                        window.changePageCallback.push(
-                            (currentPageIndex, amountOfPages) => {
-
-                                // console.log("actName", actName, targetPageNum, toRangeNum);
-                                // console.log('current', currentPageIndex);
-
-                                if (targetPageNum == currentPageIndex) {
-                                    switch (actName) {
-                                        case 'NavHideAt':
-                                            updateVisibility(transformerObj, false);
-                                            return;
-                                        case 'NavShowAt':
-                                            updateVisibility(transformerObj, true);
-                                            return;
-                                    }
-                                }
-
-                                if (actName === 'NavAtRange') {
-                                    if (currentPageIndex >= targetPageNum && currentPageIndex <= toRangeNum) updateVisibility(transformerObj, true);
-                                    else updateVisibility(transformerObj, false);
-                                }
-                            }
-                        );
-                    }
-                );
-            });
 
 
 
         // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
+
         // playOn
-
-        // let pageTransition = document.querySelector('[id^="pageConfig::transition"]');
-        // if (pageTransition) pageTransition = Number(pageTransition.id.split('*')[1]);
-        // console.log('pageTransition', pageTransition);
-
-        MissionCache
-            .playOns
+        window
+            .AiGUI
+            .AllInteractives
+            .filter(playsOn => playsOn.transformElement.id.includes('PlayOn'))
             .forEach(tObj => {
 
-                const tEle = tObj.transformElement;
+                const
+                    tEle = tObj.transformElement,
+                    pageContainer = tEle.closest('.pageContainer'),
+                    actions = tEle.id.split('::').filter(txt => txt.startsWith('PlayOn'));
+                    
                 // console.log(tEle);
-
-                const pageContainer = tEle.closest('.pageContainer');
-
-                const actions = tEle.id.split('::').filter(txt => txt.startsWith('PlayOn'));
                 // console.log('actions: ', actions);
 
                 actions.forEach(actString => {
@@ -182,10 +121,12 @@
                     };
 
                     // console.log('pageChangeCallback', pageChangeCallback);
-                    if (pageChangeCallback)
-                        window.changePageCallback.push(pageChangeCallback);
-                    // window.changePageCallback.push(pageTransition ? () => setTimeout(pageChangeCallback, pageTransition * 100) : pageChangeCallback);
+                    if (pageChangeCallback) {
+                        window.AiGUI.ChangePageCallback.push(pageChangeCallback);
+                    }
                 });
             });
-    }
+
+
+    };
 }
