@@ -1,0 +1,56 @@
+<div style="display: flex;">
+    <input type="text" style="width: 100%;" id="theText" value="http://localhost:7071/sample1" />
+    <button onclick="go()">Go</button>
+</div>
+<hr />
+<pre>
+
+
+    Marker:
+
+    Page@(Number)
+    ::PageNext()
+    ::PagePrev()
+    ::NavHideAt( number )
+    ::NavShowAt( number )
+    ::NavAtRange( number, number )
+
+
+    pageConfiguration
+    pageConfiguration::transitionMode::topDownScroll
+    pageConfiguration::transitionMode::fade
+    pageConfiguration::transition::ease*0.4
+
+
+    Interactive 
+    in::( name )
+    ::AddClickHide( name, toggle? )
+    ::AddClickShow( name, toggle? )
+    ::AddClickMove( name, x, y, r, toggle? )
+    ::PlayOnShow()
+    ::PlayOnMove( x, y, r )
+
+
+    Transition Setup
+    ::transition=linear*0.5
+
+
+    Audio
+    audio::bgm::path
+    audio::basic::path
+    audio::name::path 
+
+
+    GameSet()
+    - RadiationDrag
+    - ConnectLine
+    - DragSlot 
+    - Mc
+    - Comparing
+</pre>
+
+<script>
+    function go() {
+        location.href = `http://192.168.0.63:7070/?path=${document.getElementById('theText').value}`;
+    }
+</script>
