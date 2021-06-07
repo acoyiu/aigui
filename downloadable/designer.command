@@ -17,5 +17,5 @@ echo ""
 echo "Copy above link (mostly start with 192) into the redirect page"
 
 # if can't run on Apple
-# xattr -d -r com.apple.quarantine ./init.command
-# chmod 777 ./init.command
+# xattr -d -r com.apple.quarantine ./designer.command
+# chmod 777 ./designer.command
