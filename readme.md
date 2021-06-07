@@ -10,6 +10,7 @@ Page@(Number)
 ::PagePrev()
 ::NavHideAt( number )
 ::NavShowAt( number )
+::NavAtRange( number, number )
 
 
 pageConfiguration
@@ -23,6 +24,11 @@ in::( name )
 ::AddClickHide( name, toggle? )
 ::AddClickShow( name, toggle? )
 ::AddClickMove( name, x, y, toggle? )
+::PlayOnShow()
+::PlayOnMove(800,0,90)
+
+
+Transition Setup
 ::transition=linear*0.5
 
 
