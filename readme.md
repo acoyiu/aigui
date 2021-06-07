@@ -1,6 +1,14 @@
-1: git clone this project
+1: Clone project
+git clone this project
 
-2: Run init.command
+2: Start asset server
+npx http-server -c-1 --cors -p 7071 ./svg & npx http-server -c-1 --cors -p 7070 ./
+
+3: Build by Parcel
+parcel index.html
+
+
+
 
 
 Marker:
@@ -23,9 +31,9 @@ Interactive
 in::( name )
 ::AddClickHide( name, toggle? )
 ::AddClickShow( name, toggle? )
-::AddClickMove( name, x, y, toggle? )
+::AddClickMove( name, x, y, r, toggle? )
 ::PlayOnShow()
-::PlayOnMove(800,0,90)
+::PlayOnMove( x, y, r )
 
 
 Transition Setup

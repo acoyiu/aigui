@@ -38,6 +38,7 @@
     <script src="./_lib/InitAction.js"></script>
     <script src="./_lib/UpdateNavElement.js"></script>
     <script src="./_lib/UpdateTransition.js"></script>
+    <script src="./_lib/PreloadImage.js"></script>
     <script src="./_lib/GameSet.js"></script>
 
 
@@ -64,21 +65,8 @@
             // add game set functionality
             GameSet.init();
 
-            // preload image
-            if (document.querySelector('image')) {
-                await new Promise(res => {
-                    AiJs
-                        .Library
-                        .LoadImageSrc(
-                            AiGUI.SvgRootTag,
-                            {
-                                xLinked: true,
-                                removeSrc: true,
-                                loadedNum: per => { if (per > 0.95) res(); }
-                            }
-                        );
-                });
-            }
+            if (!window.location.search.includes('nopreload'))
+                await PreloadImage();
 
             await new Promise(res => setTimeout(res, 50));
 

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2560 1080" enable-background="new 0 0 2560 1080" xml:space="preserve">
+<pattern  y="1080" width="359" height="354" patternUnits="userSpaceOnUse" id="New_Pattern_Swatch_1" viewBox="1 -355 359 354" overflow="visible">
+	<g>
+		<rect x="1" y="-355" fill="none" width="359" height="354"/>
+		<image overflow="visible" width="359" height="354" xlink:href="assets/dotBg"  transform="matrix(1 0 0 1 1 -355)">
+		</image>
+	</g>
+</pattern>
+<g id="in::_x2A_::NavAtRange_x28_4_x2C_5_x29_">
+	<rect fill="url(#New_Pattern_Swatch_1)" width="2560" height="1080"/>
+	<g id="Union_3" transform="translate(0 1.185)">
+		<path fill="#FFFFFF" d="M1747.9,1116.9H812.1c-3.8,0-7.6-0.4-11.3-1.1c-3.6-0.7-7.2-1.8-10.6-3.3c-3.3-1.4-6.6-3.2-9.6-5.2
+			c-3-2-5.8-4.3-8.3-6.9c-2.5-2.5-4.9-5.4-6.9-8.3c-2-3-3.8-6.2-5.2-9.6c-1.4-3.4-2.5-7-3.3-10.6c-0.8-3.7-1.1-7.5-1.1-11.3V805.8
+			c0-3.8,0.4-7.6,1.1-11.3c0.7-3.6,1.8-7.2,3.3-10.6c1.4-3.3,3.2-6.6,5.2-9.6c2-3,4.3-5.8,6.9-8.3c2.5-2.5,5.4-4.9,8.3-6.9
+			c3-2,6.2-3.8,9.6-5.2c3.4-1.4,7-2.5,10.6-3.3c3.7-0.8,7.5-1.1,11.3-1.1h156.1h0.4l0.2-0.4l18.3-34.5c0.5-1,1.5-1.5,2.6-1.5
+			c1.1,0,2,0.6,2.6,1.5l18.3,34.5l0.2,0.4h0.4h736.8c3.8,0,7.6,0.4,11.3,1.1c3.6,0.7,7.2,1.8,10.6,3.3c3.3,1.4,6.6,3.2,9.6,5.2
+			c3,2,5.8,4.3,8.3,6.9c2.5,2.5,4.9,5.4,6.9,8.3c2,3,3.8,6.2,5.2,9.6c1.4,3.4,2.5,7,3.3,10.6c0.8,3.7,1.1,7.5,1.1,11.3v254.8
+			c0,3.8-0.4,7.6-1.1,11.3c-0.7,3.6-1.8,7.2-3.3,10.6c-1.4,3.3-3.2,6.6-5.2,9.6c-2,3-4.3,5.8-6.9,8.3c-2.5,2.5-5.4,4.9-8.3,6.9
+			c-3,2-6.2,3.8-9.6,5.2c-3.4,1.4-7,2.5-10.6,3.3C1755.5,1116.5,1751.7,1116.9,1747.9,1116.9z"/>
+		<path fill="#707070" d="M1747.9,1116.1c7.5,0,14.8-1.5,21.6-4.4c3.3-1.4,6.5-3.1,9.4-5.1c2.9-2,5.7-4.3,8.2-6.8
+			c2.5-2.5,4.8-5.3,6.8-8.2c2-3,3.7-6.1,5.1-9.4c2.9-6.9,4.4-14.1,4.4-21.6V805.8c0-7.5-1.5-14.8-4.4-21.6c-1.4-3.3-3.1-6.5-5.1-9.4
+			c-2-2.9-4.3-5.7-6.8-8.2c-2.5-2.5-5.3-4.8-8.2-6.8c-3-2-6.1-3.7-9.4-5.1c-6.9-2.9-14.1-4.4-21.6-4.4h-736.8h-0.9l-0.4-0.8
+			l-18.3-34.5c-0.4-0.7-1.1-1.2-1.9-1.2s-1.5,0.4-1.9,1.2l-18.3,34.5l-0.4,0.8h-0.9H812.1c-7.5,0-14.8,1.5-21.6,4.4
+			c-3.3,1.4-6.5,3.1-9.4,5.1c-2.9,2-5.7,4.3-8.2,6.8c-2.5,2.5-4.8,5.3-6.8,8.2c-2,3-3.7,6.1-5.1,9.4c-2.9,6.9-4.4,14.1-4.4,21.6
+			v254.8c0,7.5,1.5,14.8,4.4,21.6c1.4,3.3,3.1,6.5,5.1,9.4c2,2.9,4.3,5.7,6.8,8.2c2.5,2.5,5.3,4.8,8.2,6.8c3,2,6.1,3.7,9.4,5.1
+			c6.9,2.9,14.1,4.4,21.6,4.4H1747.9 M1747.9,1117.6H812.1c-31.5,0-57-25.5-57-57V805.8c0-31.5,25.5-57,57-57h156.1l18.3-34.5
+			c0.7-1.3,1.9-1.9,3.2-1.9s2.5,0.6,3.2,1.9l18.3,34.5h736.8c31.5,0,57,25.5,57,57v254.8C1804.9,1092.1,1779.4,1117.6,1747.9,1117.6
+			z"/>
+	</g>
+	<path id="Rectangle_200" fill="#0DAEB4" d="M854,783.2h125.6c14.3,0,26,11.6,26,26V820c0,14.3-11.6,26-26,26H854
+		c-14.3,0-26-11.6-26-26v-10.8C828,794.8,839.6,783.2,854,783.2z"/>
+	<text transform="matrix(1 0 0 1 874.1807 826.491)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="32.4763px">Ruby</text>
+</g>
+<g id="Page_x40_5">
+	<text transform="matrix(1 0 0 1 856.8594 898.6609)" enable-background="new    "><tspan x="0" y="0" fill="#707070" font-family="'PingFangHK-Semibold-B5pc-H'" font-size="36.8065px">明天我就是一个捕虫家。只要我下定決心，沒有事</tspan><tspan x="0" y="44.2" fill="#707070" font-family="'PingFangHK-Semibold-B5pc-H'" font-size="36.8065px">情是不可能的！</tspan></text>
+	<g id="in::_x2A_::PageNext_x28__x29__5_" transform="translate(1279.5 593.492) rotate(90)">
+		<path fill="#FFCA67" d="M449.1-358.2h-46.4l23.2-40.1L449.1-358.2z"/>
+		<path fill="#707070" d="M425.9-397.6l-22.6,39h45.1L425.9-397.6 M425.9-399l23.8,41.1h-47.6L425.9-399z"/>
+	</g>
+	
+		<image overflow="visible" width="224" height="300" xlink:href="assets/ruby2"  transform="matrix(2.338 0 0 2.338 1005.529 48.12)">
+	</image>
+</g>
+<g id="Page_x40_4_1_">
+	
+		<text transform="matrix(1 0 0 1 856.8594 898.6609)" fill="#707070" font-family="'PingFangHK-Semibold-B5pc-H'" font-size="36.8065px">我就是我內心世界的造物主和建築師。今天我是醫</text>
+	
+		<text transform="matrix(1 0 0 1 856.8594 950.6228)" fill="#707070" font-family="'PingFangHK-Semibold-B5pc-H'" font-size="36.8065px">生。</text>
+	<g id="in::_x2A_::PageNext_x28__x29__4_" transform="translate(1279.5 593.492) rotate(90)">
+		<path fill="#FFCA67" d="M449.1-358.2h-46.4l23.2-40.1L449.1-358.2z"/>
+		<path fill="#707070" d="M425.9-397.6l-22.6,39h45.1L425.9-397.6 M425.9-399l23.8,41.1h-47.6L425.9-399z"/>
+	</g>
+	
+		<image overflow="visible" width="358" height="300" xlink:href="assets/ruby1.png"  transform="matrix(2.0597 0 0 2.0597 917.2222 64.2)">
+	</image>
+</g>
+<g id="in::_x2A_::NavShowAt_x28_1_x29_::NavHideAt_x28_0_x29_::NavHideAt_x28_4_x29_::transitionlinear_x2A_1">
+	<rect fill="#FDC73F" width="2560" height="1080"/>
+	<image overflow="visible" width="1920" height="1080" xlink:href="assets/p2.jpg"  transform="matrix(1 0 0 1 320 0)">
+	</image>
+	<rect x="817.6" y="838.5" fill="#FFFFFF" width="963.8" height="213.4"/>
+</g>
+<g id="Page_x40_3">
+	<text transform="matrix(1 0 0 1 822.9121 884.0986)" enable-background="new    "><tspan x="0" y="0" fill="#707070" font-family="'KozGoPr6N-Regular-83pv-RKSJ-H'" font-size="33.3918px">在他們身上總是可以學習到新鮮的事物，所以和他</tspan><tspan x="0" y="40.1" fill="#707070" font-family="'KozGoPr6N-Regular-83pv-RKSJ-H'" font-size="33.3918px">們見面總讓我非常興奮！</tspan></text>
+	<polygon id="in::_x2A_::PageNext_x28__x29__3_" fill="#FFD57F" stroke="#7C7C7C" stroke-miterlimit="10" points="1772.5,1020.6 
+		1727.4,994.6 1727.4,1046.7 	"/>
+	<polygon id="in::_x2A_::PageTo_x28_0_x29__1_" fill="#FFD57F" stroke="#7C7C7C" stroke-miterlimit="10" points="802.5,1020.6 
+		847.6,1046.7 847.6,994.6 	"/>
+</g>
+<g id="Page_x40_2">
+	<text transform="matrix(1 0 0 1 822.9121 884.0986)" enable-background="new    "><tspan x="0" y="0" fill="#707070" font-family="'KozGoPr6N-Regular-83pv-RKSJ-H'" font-size="33.3918px">當然，偶然的惡作劇也是必不可少的，嘿嘿！</tspan><tspan x="667.8" y="0" fill="#707070" font-family="'HelveticaNeue-Bold'" font-size="33.3918px"> </tspan><tspan x="677.1" y="0" fill="#707070" font-family="'KozGoPr6N-Regular-83pv-RKSJ-H'" font-size="33.3918px">數到</tspan><tspan x="0" y="40.1" fill="#707070" font-family="'KozGoPr6N-Regular-83pv-RKSJ-H'" font-size="33.3918px">最喜歡的，還是認識新朋友。</tspan></text>
+	<polygon id="in::_x2A_::PageNext_x28__x29__2_" fill="#FFD57F" stroke="#7C7C7C" stroke-miterlimit="10" points="1772.5,1020.6 
+		1727.4,994.6 1727.4,1046.7 	"/>
+</g>
+<g id="Page_x40_1">
+	<text transform="matrix(1 0 0 1 822.9121 884.0986)" enable-background="new    "><tspan x="0" y="0" fill="#707070" font-family="'HelveticaNeue-Bold'" font-size="33.3918px">Hello</tspan><tspan x="81.5" y="0" fill="#707070" font-family="'KozGoPr6N-Regular-83pv-RKSJ-H'" font-size="33.3918px">！我是</tspan><tspan x="181.7" y="0" fill="#707070" font-family="'HelveticaNeue-Bold'" font-size="33.3918px">Ruby</tspan><tspan x="263.4" y="0" fill="#707070" font-family="'KozGoPr6N-Regular-83pv-RKSJ-H'" font-size="33.3918px">。我喜歡在想像的世界裡翱翔！</tspan></text>
+	<polygon id="in::_x2A_::PageNext_x28__x29__1_" fill="#FFD57F" stroke="#7C7C7C" stroke-miterlimit="10" points="1772.5,1020.6 
+		1727.4,994.6 1727.4,1046.7 	"/>
+</g>
+<g id="Page_x40_0">
+	<image overflow="visible" width="2560" height="1080" xlink:href="assets/mainBg.jpg" >
+	</image>
+	<g id="in::_x2A_::PageNext_x28__x29_" transform="translate(-1057 -1197)">
+		<g id="Rectangle_1" transform="translate(1057 1197)">
+			<path fill="#FFFFFF" d="M1216.5,873.6h126.9c14.1,0,25.5,11.4,25.5,25.5v13.9c0,14.1-11.4,25.5-25.5,25.5h-126.9
+				c-14.1,0-25.5-11.4-25.5-25.5V899C1191.1,885,1202.5,873.6,1216.5,873.6z"/>
+			<path fill="none" stroke="#707070" stroke-linejoin="round" d="M1216.5,873.8h126.9c14,0,25.3,11.3,25.3,25.3v13.9
+				c0,14-11.3,25.3-25.3,25.3h-126.9c-14,0-25.3-11.3-25.3-25.3V899C1191.3,885.1,1202.6,873.8,1216.5,873.8z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 2279.8977 2119.0994)" fill="#707070" font-family="'HelveticaNeue'" font-size="50.9345px">Start</text>
+	</g>
+</g>
+<g id="General">
+	<polygon id="in::_x2A_::PageNext_x28__x29_::NavHideAt_x28_9_x29_::NavShowAt_x28_8_x29_" fill="#4917AA" points="620,1080 
+		648.9,1030 591.2,1030 	"/>
+	<circle id="in::_x2A_::NavHideAt_x28_1_x29_" fill="#4917AA" cx="620" cy="540.5" r="28.2"/>
+	<polygon id="in::_x2A_::PagePrev_x28__x29_::NavHideAt_x28_0_x29_::NavShowAt_x28_1_x29_" fill="#4917AA" points="620,0 
+		590.1,51.9 650,51.9 	"/>
+	<rect id="pageConfig::transition::ease_x2A_0.4" x="2517.2" y="23.2" fill="none" width="18.8" height="18.8"/>
+	<rect id="pageConfig::transitionMode::fade" x="2517.2" y="31" fill="none" width="18.8" height="18.8"/>
+	<rect id="audio::succ::success.mp3_1_" x="2517.2" y="49.7" fill="none" width="18.8" height="18.8"/>
+	<rect id="audio::fail::fail.mp3" x="2517.2" y="50.9" fill="none" width="18.8" height="18.8"/>
+	<rect id="audio::bgm::bgm.mp3_1_" x="2517.2" y="54.8" fill="none" width="18.8" height="18.8"/>
+	<rect id="audio::basic::drop.mp3_2_" x="2517.2" y="78.6" fill="none" width="18.8" height="18.8"/>
+	<rect x="560" fill="none" stroke="#000000" stroke-miterlimit="10" width="1440" height="1080"/>
+</g>
+</svg>

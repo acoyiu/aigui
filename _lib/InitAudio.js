@@ -1,7 +1,5 @@
 function InitAudio() {
 
-    const isUsingDefaultAsset = window.location.search.includes('default');
-
     const allAudio =
         Array
             .from(document.querySelectorAll('[id^="audio::"]'))
@@ -11,9 +9,7 @@ function InitAudio() {
             .map(([name, fileName]) => {
                 return [
                     name,
-                    isUsingDefaultAsset
-                        ? `./audio/${fileName}`.replace(/.mp3(.*?)$/g, '.mp3')
-                        : `./target/sound/${fileName}`.replace(/.mp3(.*?)$/g, '.mp3')
+                    `${window.targetPath}/sound/${fileName}`.replace(/.mp3(.*?)$/g, '.mp3')
                 ];
             })
 

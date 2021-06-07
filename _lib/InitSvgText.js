@@ -1,8 +1,16 @@
 async function InitSvgText(tagToUpdateInnerHTML) {
 
-    let svgText;
-    if (!window.location.search.includes('default')) svgText = await (await fetch('./target/index.svg')).text();
-    else svgText = await (await fetch('./svg/index.svg')).text();
+    const
+        urlParams = new URLSearchParams(window.location.search),
+        pathParam = decodeURI(urlParams.get('path'));
+    // console.log('pathParam', pathParam);
+
+    
+    window.targetPath = pathParam;
+
+
+    let svgText = await (await fetch(`${pathParam}/index.svg`)).text();
+
 
     svgText = svgText
         .replace(/_x21_/g, '!')
@@ -24,11 +32,10 @@ async function InitSvgText(tagToUpdateInnerHTML) {
         .replace(/<!--(.*?)-->/g, '')
         .replace(
             /xlink\:href\=\"/g,
-            window.location.search.includes('default')
-                ? 'xlink:href="./svg/'
-                : 'xlink:href="./target/'
+            `xlink:href="${pathParam}/`
         );
     // console.log(svgText);
+
 
     tagToUpdateInnerHTML.innerHTML = svgText;
 };
