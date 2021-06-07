@@ -4,20 +4,20 @@ async function InitAnimation() {
 
 
     const allAnimate = Array.from(document.querySelectorAll('[id^="animate::"]'));
-    console.log('allAnimate', allAnimate);
+    // console.log('allAnimate', allAnimate);
 
 
     await Promise.all(allAnimate.map(async aniEle => {
-        console.log('aniEle', aniEle);
+        // console.log('aniEle', aniEle);
 
 
         const idStr = aniEle.id
-        console.log('idStr', idStr);
+        // console.log('idStr', idStr);
 
 
         let [_, name, timePattern] = idStr.split('::');
         timePattern = Number(timePattern.split('=')[1]);
-        console.log('name, timePattern', name, timePattern);
+        // console.log('name, timePattern', name, timePattern);
 
 
         let timeOutObj,
@@ -53,5 +53,5 @@ async function InitAnimation() {
     }));
 
 
-    console.log('AllAnimatable', AiGUI.AllAnimatable);
+    // console.log('AllAnimatable', AiGUI.AllAnimatable);
 }
