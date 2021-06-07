@@ -7,7 +7,7 @@ async function InitSvgText(tagToUpdateInnerHTML) {
         // console.log('pathParam', pathParam);
 
 
-        if (!pathParam)
+        if (!pathParam || pathParam === 'null' || pathParam === null)
             throw 'No param passed in.';
 
 
@@ -45,7 +45,7 @@ async function InitSvgText(tagToUpdateInnerHTML) {
         tagToUpdateInnerHTML.innerHTML = svgText;
     }
     catch (error) {
-        alert('Content Load Error.');
+        alert(`Content Load Error: ${error}`);
         throw error;
     }
 };

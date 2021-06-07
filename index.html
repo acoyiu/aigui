@@ -51,7 +51,9 @@
             // hide container
             document.getElementById('container').style.opacity = 0;
 
-            await InitSvgText(document.getElementById('container'));
+            try { await InitSvgText(document.getElementById('container')); }
+            catch (error) { window.location.href = './redirect.html' }
+
             await InitSvgView();
             await InitAudio();
 
