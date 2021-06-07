@@ -1,5 +1,5 @@
 <div style="display: flex;">
-    <input type="text" style="width: 100%;" id="theText" value="http://localhost:7071/sample1" />
+    <input type="text" style="width: 100%;" id="theText" value="http://localhost:7070/svg/sample1" />
     <button onclick="go()">Go</button>
 </div>
 <script>
@@ -34,12 +34,16 @@
     ::AddClickHide( name, toggle? )
     ::AddClickShow( name, toggle? )
     ::AddClickMove( name, x, y, r, toggle? )
+    ::ActClickAnimate( losePop, nonreplayable? )
     ::PlayOnShow()
     ::PlayOnMove( x, y, r )
 
 
     Transition Setup
     ::transition=linear*0.5
+
+    Animatable
+    animate::losePop::time=2
 
 
     Audio

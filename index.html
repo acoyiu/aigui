@@ -33,8 +33,9 @@
     <script src="./_lib/InitAudio.js"></script>
     <script src="./_lib/InsertPageConfiguration.js"></script>
     <script src="./_lib/InitPages.js"></script>
-    <script src="./_lib/SubtitleInteractiveByTransformer.js"></script>
+    <script src="./_lib/TransformerSubtitution.js"></script>
     <script src="./_lib/InitPagingNav.js"></script>
+    <script src="./_lib/InitAnimation.js"></script>
     <script src="./_lib/InitAction.js"></script>
     <script src="./_lib/UpdateNavElement.js"></script>
     <script src="./_lib/UpdateTransition.js"></script>
@@ -57,8 +58,9 @@
             const laterUpdateTransition = await InsertPageConfiguration();
 
             await InitPages();
-            await SubtitleInteractiveByTransformer();
+            await TransformerSubtitution();
             await InitPagingNav();
+            await InitAnimation();
             await InitAction();
             await UpdateNavElement();
 

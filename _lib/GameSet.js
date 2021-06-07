@@ -647,7 +647,7 @@ const GameSet = {
             .map(el => {
                 el.id = el.id.split('_')[0];
                 return el;
-            })
+            });
 
         let [scoreG, pairingG, winPop] = Array.from(tag.children);
 

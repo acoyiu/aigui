@@ -9,8 +9,6 @@
 
 
     // ################################################################################################################################################################
-    // ################################################################################################################################################################
-    // ################################################################################################################################################################
 
 
     function caseAct(tObj) {
@@ -158,6 +156,35 @@
 
                                 // try play bgm
                                 window?.AudioCache?.[nameOfAudio]?.play();
+                            }
+                        );
+                    }
+                    break;
+
+
+                // ----------------------------------------------------------------------------------------------
+
+
+                case 'ActClickAnimate':
+                    {
+                        let oneTimeUseSwitch = false;
+
+                        arr_targetCallback.push(
+                            () => {
+                                console.log('ActClickAnimate', targetAction, targetParam);
+
+                                const [animationName, nonReplayable] = targetParam;
+
+                                const statedImgObj = AiGUI.AllAnimatable[animationName];
+                                console.log('statedImgObj', statedImgObj);
+
+                                if (!oneTimeUseSwitch) {
+
+                                    if (nonReplayable)
+                                        oneTimeUseSwitch = true;
+
+                                    statedImgObj.play();
+                                }
                             }
                         );
                     }
