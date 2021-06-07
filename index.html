@@ -28,8 +28,6 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
-    <link rel="stylesheet" href="./lib/foreignHandle.css">
 </head>
 
 <body>
@@ -43,7 +41,6 @@
     <script src="./lib/gameSet.js"></script>
     <script src="./lib/updateNav.js"></script>
     <script src="./lib/updateAction.js"></script>
-    <script src="./lib/foreignHandle.js"></script>
     <script src="./lib/updateTransition.js"></script>
 
     <script>
@@ -155,9 +152,6 @@
                 // console.log('changePageCallback', changePageCallback);
                 changePageCallback.forEach(func => func(currentPageIndex, MissionCache.allPages.length));
             };
-
-
-            // ForeignHandle();
 
 
             initContent();
