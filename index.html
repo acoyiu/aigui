@@ -149,6 +149,17 @@
                     currentPageIndex = toNext;
                 }
                 updatePageByIndex();
+
+                MissionCache.allPages.forEach((pageTag, pageIndex) => {
+                    if (pageIndex === currentPageIndex) {
+                        pageTag.classList.add('activated');
+                        pageTag.classList.remove('deactivated');
+                    } else {
+                        pageTag.classList.add('deactivated');
+                        pageTag.classList.remove('activated');
+                    }
+                });
+
                 // console.log('changePageCallback', changePageCallback);
                 changePageCallback.forEach(func => func(currentPageIndex, MissionCache.allPages.length));
             };
