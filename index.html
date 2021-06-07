@@ -48,15 +48,12 @@
 
     <script>
         // remove log
-        console.log('add "?log" after url for showing logs.');
-        if (!window.location.search.includes('log'))
-            console.log = () => { };
-
 
         const MissionCache = {
             allPages: [],
             namedObj: {},
             gameSet: [],
+            playOns: [],
             actElement: [],
             navElements: [],
             pageChanger: [],
@@ -96,7 +93,7 @@
                         ? 'xlink:href="./svg/'
                         : 'xlink:href="./target/'
                 );
-            console.log(svgText);
+            // console.log(svgText);
             document.getElementById('container').innerHTML = svgText;
 
             initPages();
@@ -131,6 +128,7 @@
                     .from(document.querySelectorAll('[id^="Page"]'))
                     .filter(page => page.style.display != 'none' && page.getAttribute('display') != 'none')
                     .map(pageTag => {
+                        pageTag.classList.add('pageContainer');
                         pageTag.id = pageTag.id.split('_')[0];
                         return pageTag;
                     })
@@ -144,7 +142,7 @@
 
 
             window.changePage = toNext => {
-                console.log('toNext', toNext);
+                // console.log('toNext', toNext);
                 if (typeof toNext === 'boolean') {
                     toNext
                         ? currentPageIndex++
@@ -154,6 +152,7 @@
                     currentPageIndex = toNext;
                 }
                 updatePageByIndex();
+                // console.log('changePageCallback', changePageCallback);
                 changePageCallback.forEach(func => func(currentPageIndex, MissionCache.allPages.length));
             };
 
@@ -228,6 +227,10 @@
                         if (allAttributes.some(attri => attri.startsWith('Nav')))
                             MissionCache.navElements.push(tObj);
 
+                        // extract PlayOn elements
+                        if (allAttributes.some(attri => attri.startsWith('PlayOn')))
+                            MissionCache.playOns.push(tObj);
+
                         // extract game set
                         if (allAttributes.some(attri => attri.startsWith('GameSet')))
                             MissionCache.gameSet.push(tObj);
@@ -260,10 +263,10 @@
             if (document.querySelector('image')) {
                 await new Promise(res => setTimeout(res, 50));
                 await new Promise(res => {
-                    console.log('loading img');
-                    console.log('svgRootTag', svgRootTag);
+                    // console.log('loading img');
+                    // console.log('svgRootTag', svgRootTag);
                     AiJs.Library.LoadImageSrc(svgRootTag, { xLinked: true, removeSrc: true, loadedNum: per => { if (per > 0.95) res(); } });
-                    console.log('all img loaded.');
+                    // console.log('all img loaded.');
                 });
                 await new Promise(subRes => setTimeout(subRes, 50));
             }
@@ -292,7 +295,7 @@
             }, 100);
 
 
-            console.log('MissionCache', MissionCache);
+            // console.log('MissionCache', MissionCache);
         };
 
 

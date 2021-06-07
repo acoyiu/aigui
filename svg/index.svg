@@ -256,10 +256,16 @@
 <g id="Page_x40_1">
 	<text id="text_1_" transform="matrix(1 0 0 1 1083.6057 854.9839)" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickShow(pop,toggle)</text>
 	<text id="text_2_" transform="matrix(1 0 0 1 1410.8411 445.1026)" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::pop::transition=linear*0.5</text>
+	<text id="text_3_" transform="matrix(1 0 0 1 1367.3002 292.4277)" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::PlayOnMove</text>
+	<text id="text_4_" transform="matrix(1 0 0 1 890.6876 292.4277)" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::PlayOnShow</text>
 	
 		<rect id="in::pop::transition_x3D_linear_x2A_0.5" x="1192.7" y="354.9" opacity="4.000000e-02" fill="#994D33" enable-background="new    " width="174.6" height="158.1"/>
 	<polygon id="in::_x2A_::ActClickShow_x28_pop_x2C_toggle_x29_" fill="#994D33" points="1320.4,605.5 1239.6,605.5 1199.2,675.4 
 		1239.6,745.4 1320.4,745.4 1360.8,675.4 	"/>
+	
+		<rect id="in::_x2A_::PlayOnShow_x28__x29_::transition_x3D_linear_x2A_1" x="890.7" y="90.1" fill="#994D33" width="177.7" height="150.2"/>
+	
+		<rect id="in::_x2A_::PlayOnMove_x28_800_x2C_0_x2C_90_x29_::transition_x3D_ease_x2A_1" x="1367.3" y="96.7" fill="#994D33" width="224.3" height="159.4"/>
 </g>
 <g id="Page_x40_0">
 	<rect id="background" fill="#60A582" width="2560" height="1080"/>
@@ -271,7 +277,7 @@
 	<polygon id="in::pButton::PageNext_x28__x29_" opacity="5.000000e-02" fill="#FFFFFF" enable-background="new    " points="
 		1280,1080 1323.3,1005 1236.7,1005 	"/>
 	
-		<text id="text" transform="matrix(1 0 0 1 794.5885 702.1023)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickHide(circleToHide,toggle)</text>
+		<text id="rrr" transform="matrix(1 0 0 1 794.5885 702.1023)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickHide(circleToHide,toggle)</text>
 	<text transform="matrix(1 0 0 1 1381.3455 702.1025)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">circleToHide</text>
 </g>
 <g id="General">
