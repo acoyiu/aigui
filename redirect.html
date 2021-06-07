@@ -2,7 +2,14 @@
     <input type="text" style="width: 100%;" id="theText" value="http://localhost:7071/sample1" />
     <button onclick="go()">Go</button>
 </div>
+<script>
+    function go() {
+        location.href = `http://192.168.0.63:7070/?path=${document.getElementById('theText').value}`;
+    }
+</script>
+
 <hr />
+
 <pre>
 
 
@@ -48,9 +55,3 @@
     - Mc
     - Comparing
 </pre>
-
-<script>
-    function go() {
-        location.href = `http://192.168.0.63:7070/?path=${document.getElementById('theText').value}`;
-    }
-</script>

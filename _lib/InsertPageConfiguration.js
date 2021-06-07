@@ -59,7 +59,7 @@ async function InsertPageConfiguration() {
             case 'fade':
                 AllPages.forEach(pageG => {
 
-                    if (MissionCache.allPages.indexOf(pageG) === currentPageIndex) {
+                    if (AllPages.indexOf(pageG) === currentPageIndex) {
                         pageG.style.opacity = 1;
                         pageG.style.pointerEvents = 'all';
                     }
@@ -78,7 +78,7 @@ async function InsertPageConfiguration() {
                 });
                 AllPages.forEach(pageG => {
 
-                    if (MissionCache.allPages.indexOf(pageG) === currentPageIndex) {
+                    if (AllPages.indexOf(pageG) === currentPageIndex) {
                         pageG.style.opacity = 1;
                         pageG.style.pointerEvents = 'all';
                     }
