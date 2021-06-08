@@ -36,10 +36,11 @@ async function InitSvgText(tagToUpdateInnerHTML) {
             .replace(/<\?xml(.*?)>/g, '')
             .replace(/<!--(.*?)-->/g, '')
             .replace(
-                /xlink\:href\=\"/g,
-                `xlink:href="${pathParam}/`
+                // /xlink\:href\=\"/g,
+                /xlink:href="([^#])/g,
+                `xlink:href="${pathParam}/$1`
             );
-        // console.log(svgText);
+        console.log(svgText);
 
 
         tagToUpdateInnerHTML.innerHTML = svgText;
