@@ -314,19 +314,22 @@ const GameSet = {
     DragSlot(tObj, tag, params) {
         // console.log('tObj, tag, params', tObj, tag, params);
 
-        let [dragGroup, winGroup] = Array.from(tag.children),
-            winCrossButton = new AiJs.Button(
-                winGroup.children[winGroup.children.length - 1],
-                {
-                    scaleRatio: 0.9,
-                    center: 5,
-                    end: async () => {
-                        await resetGame();
-                        toggleWinGroup(false);
-                    },
-                });
+        let [dragGroup, winGroup] = Array.from(tag.children);
+        // console.log('winGroup', winGroup);
+
+        let winCrossButton = new AiJs.Button(
+            winGroup.children[winGroup.children.length - 1],
+            {
+                scaleRatio: 0.9,
+                center: 5,
+                end: async () => {
+                    await resetGame();
+                    toggleWinGroup(false);
+                },
+            });
 
         winGroup = new AiJs.Transformer(winGroup);
+        // console.log('winGroup', winGroup);
 
         async function toggleWinGroup(boo) {
             if (boo) {
@@ -354,7 +357,7 @@ const GameSet = {
 
         }
 
-        // dev use
+        // // dev use
         // setTimeout(() => {
         //     showWin();
         // }, 1000);
@@ -374,10 +377,10 @@ const GameSet = {
 
 
         const resetGame = () => new Promise(res => {
-
             // console.log('dragGroup', dragGroup);
 
             const allDraggable = Array.from(dragGroup.children);
+            // console.log('allDraggable', allDraggable);
 
             scoreOfDrag = allDraggable.length;
 
@@ -392,7 +395,6 @@ const GameSet = {
                     parentTag.removeChild(dragger);
                     dragger = tempTag;
                     parentTag.appendChild(dragger);
-
                 }
 
                 dragger.style.pointerEvents = 'all';
