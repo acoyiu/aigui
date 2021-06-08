@@ -94,6 +94,8 @@
         start();
         setTimeout(() => {
             window.onresize = () => {
+                // console.log('AiGUI.TheView', AiGUI.TheView);
+                // console.log('AiGUI.SvgRootTag', AiGUI.SvgRootTag);
                 AiGUI.TheView = new AiJs.View(
                     AiGUI.SvgRootTag,
                     {
