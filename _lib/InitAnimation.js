@@ -8,16 +8,21 @@ async function InitAnimation() {
 
 
     await Promise.all(allAnimate.map(async aniEle => {
-        // console.log('aniEle', aniEle);
+        console.log('aniEle', aniEle);
 
 
-        const idStr = aniEle.id
-        // console.log('idStr', idStr);
+        const idStr = aniEle.id;
+        console.log('idStr', idStr);
+
+
+        aniEle.style.pointerEvents = 'none';
+        console.log('aniEle', aniEle);
+        console.log(`aniEle.getAttribute('xlink:href')`, aniEle.getAttribute('xlink:href'));
 
 
         let [_, name, timePattern] = idStr.split('::');
         timePattern = Number(timePattern.split('=')[1]);
-        // console.log('name, timePattern', name, timePattern);
+        console.log('name, timePattern', name, timePattern);
 
 
         let timeOutObj,
@@ -41,17 +46,23 @@ async function InitAnimation() {
 
 
         // stop animation
-        setTimeout(() => {
+        (async () => {
+            await new Promise(res => setTimeout(res, 50));
             mainPlayer.hide();
-            requestAnimationFrame(() => {
-                mainPlayer.hide();
-            });
-        }, 50);
+            await new Promise(res => requestAnimationFrame(res));
+            mainPlayer.hide();
+            await new Promise(res => setTimeout(res, 50));
+            mainPlayer.hide();
+            await new Promise(res => requestAnimationFrame(res));
+            mainPlayer.hide();
+        })();
 
 
         AiGUI.AllAnimatable[name] = mainPlayer;
+
+        console.warn('=-=-=-=-=-=-=-=-=-=-=-=-');
     }));
 
 
-    // console.log('AllAnimatable', AiGUI.AllAnimatable);
+    console.log('AllAnimatable', AiGUI.AllAnimatable);
 }

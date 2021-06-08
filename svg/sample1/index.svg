@@ -272,9 +272,10 @@
 	<path id="in::_x2A_::ActClickAnimate_x28_losePop_x29_" fill="#25BAAF" d="M1009.1,528.6h88.6c32.3,0,58.4,26.2,58.4,58.4v88.6
 		c0,32.3-26.2,58.4-58.4,58.4h-88.6c-32.3,0-58.4-26.2-58.4-58.4V587C950.7,554.7,976.8,528.6,1009.1,528.6z"/>
 	
-		<image overflow="visible" width="1326" height="829" id="animate::losePop::time_x3D_9999" xlink:href="example/i02.gif"  transform="matrix(0.3169 0 0 0.3169 1306.8 499.9722)">
+		<image overflow="visible" enable-background="new    " width="1326" height="829" id="animate::losePop::time_x3D_9999" xlink:href="example/i02.gif"  transform="matrix(0.3169 0 0 0.3169 1306.8 499.9722)">
 	</image>
-	<image overflow="visible" width="273" height="230" xlink:href="example/i01.gif"  transform="matrix(1 0 0 1 1305.1333 150.6)">
+	
+		<image overflow="visible" enable-background="new    " width="273" height="230" xlink:href="example/i01.gif"  transform="matrix(1 0 0 1 1305.1333 150.6)">
 	</image>
 	<text transform="matrix(1 0 0 1 1007.8998 295.4836)" font-family="'MyriadPro-Regular'" font-size="54.6173px">direct Gif</text>
 	<text transform="matrix(1 0 0 1 967.8977 810.0897)" font-family="'MyriadPro-Regular'" font-size="54.6173px">Play Gif</text>
@@ -288,9 +289,17 @@
 		c68.8,0,124.5,55.8,124.5,124.5v25.7C1584.4,581.1,1528.6,636.8,1459.9,636.8z"/>
 	<polygon id="in::pButton::PageNext_x28__x29_" opacity="5.000000e-02" fill="#FFFFFF" enable-background="new    " points="
 		1280,1080 1323.3,1005 1236.7,1005 	"/>
+	<g id="in::_x2A_::ActClickAnimate_x28_poper_x29_">
+		<rect x="1210.2" y="28.8" fill="#50C9C0" width="144.3" height="43.5"/>
+		
+			<text id="txt" transform="matrix(1 0 0 1 1224.2555 54.7997)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">play pop</text>
+	</g>
 	
-		<text id="e" transform="matrix(1 0 0 1 794.5885 702.1023)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickHide(circleToHide,toggle)</text>
+		<text id="text" transform="matrix(1 0 0 1 794.5885 702.1023)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">in::*::ActClickHide(circleToHide,toggle)</text>
 	<text transform="matrix(1 0 0 1 1381.3455 702.1025)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="30.4871px">circleToHide</text>
+	
+		<image overflow="visible" width="1260" height="540" id="animate::poper::time_x3D_9999" xlink:href="example/flower.gif"  transform="matrix(2 0 0 2 20 0)">
+	</image>
 </g>
 <g id="General">
 	<polygon id="in::_x2A_::PageNext_x28__x29_::NavAtRange_x28_0_x2C_9_x29_" fill="#4917AA" points="620,1080 648.9,1030 591.2,1030 
