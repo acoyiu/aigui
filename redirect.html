@@ -16,48 +16,49 @@
     Marker:
 
     Page@(Number)
-    ::PageNext()
-    ::PagePrev()
-    ::NavHideAt( number )
-    ::NavShowAt( number )
-    ::NavAtRange( number, number )
+    ::PageNext()                    - 下一頁按鈕
+    ::PagePrev()                    - 上一頁按鈕
+    ::NavHideAt( number )           - 去到某頁時消失
+    ::NavShowAt( number )           - 去到某頁時出現
+    ::NavAtRange( number, number )  - 某頁至某頁期間出現
 
 
     pageConfiguration
-    pageConfiguration::transitionMode::topDownScroll
-    pageConfiguration::transitionMode::fade
-    pageConfiguration::transition::ease*0.4
+    pageConfiguration::transitionMode::topDownScroll - 下至上滾動
+    pageConfiguration::transitionMode::fade          - 漸入漸出
+    pageConfiguration::transition::ease*0.4          - 設定頁面變動animation
+
+
+    Animatable
+    animate::losePop::time=2                         - 命名某動畫
 
 
     Interactive 
-    in::( name )
-    ::AddClickHide( name, toggle? )
-    ::AddClickShow( name, toggle? )
-    ::AddClickMove( name, x, y, r, toggle? )
-    ::ActClickAnimate( losePop, nonreplayable? )
-    ::PlayOnShow()
-    ::PlayOnMove( x, y, r )
+    in::( name )                                     - 命名某物件
+    ::AddClickHide( name, toggle? )                  - 按下隱藏某東西
+    ::AddClickShow( name, toggle? )                  - 按下顯示某東西
+    ::AddClickMove( name, x, y, r, toggle? )         - 按下移動某東西
+    ::ActClickAnimate( losePop, nonreplayable? )     - 按下播放某動畫
+    ::PlayOnShow()                                   - 進入當前頁面是出現
+    ::PlayOnMove( x, y, r )                          - 進入當前頁面是移動
 
 
     Transition Setup
-    ::transition=linear*0.5
+    ::transition=linear*0.5                          - 為物件設定animation
 
-    Animatable
-    animate::losePop::time=2
-
-
+    
     Audio
-    audio::bgm::path
-    audio::basic::path
-    audio::name::path 
+    audio::bgm::path                                 - 設定背景音樂
+    audio::basic::path                               - 設定普通點擊效果音
+    audio::name::path                                - 載入自定義聲音
 
 
     GameSet()
-    - RadiationDrag
-    - ConnectLine
-    - DragSlot 
-    - Mc
-    - Comparing
+    - RadiationDrag                                  - 組合：放射式拉動
+    - ConnectLine                                    - 組合：連線
+    - DragSlot                                       - 組合：Drag & Drop
+    - Mc                                             - 組合：選擇題
+    - Comparing                                      - 組合：找不同
 
 
 </pre>
