@@ -94,8 +94,8 @@
         start();
         setTimeout(() => {
             window.onresize = () => {
-                theView = new AiJs.View(
-                    svgRootTag,
+                AiGUI.TheView = new AiJs.View(
+                    AiGUI.SvgRootTag,
                     {
                         isMobile: true,
                         isHorizontal: true,
